@@ -20,7 +20,7 @@ output wire [3:0] x1,
 output wire [3:0] y0,
 output wire [3:0] y1,
 output wire [3:0] m,
-output wire [3:0] r, 
+output wire [3:0] r,
 output wire [3:0] i,
 
 //Instruction Decoder specific
@@ -43,16 +43,15 @@ output wire [7:0] cache_out,
 
 
 //------------Debugging------------
-output wire show_hold_on,
-output wire show_start_hold,
-output wire show_end_hold,
-output wire show_hold,
-output wire [4:0] show_hold_count,
-output wire show_sync_reset_1,
-output wire show_reset_1shot
+output wire hold_on,
+output wire start_hold,
+output wire end_hold,
+output wire hold_out,
+output wire hold,
+output wire [2:0] hold_count,
+output wire sync_reset_1,
+output wire reset_1shot
 );
-//-----------For debugging----------
-assign show_hold_on = hold_out;
 
 wire jump;
 wire conditional_jump;
@@ -63,22 +62,23 @@ wire [3:0] LS_nibble_ir;
 wire [3:0] source_select;
 wire [7:0] dm;
 wire [7:0] data_bus;
-wire hold_out;
 reg sync_reset;
 
 always@(posedge clk)
 	sync_reset <= reset;
 
 
-cache c(
+cache_multi c(
 	.clk(clk),
 	.data(pm_data),
+	.rdline(rdline),
 	.rdoffset(rdoffset),
+	.wrline(wrline),
 	.wroffset(wroffset),
 	.wren(wren),
 	.q(cache_out)
 );
-	
+
 data_memory data_mem(
 	.address(i),
 	.data(data_bus),
@@ -86,46 +86,48 @@ data_memory data_mem(
 	.wren(reg_enables[7]),
 	.q(dm)
 );
-	
+
 
 program_memory prog_memory(
 	.address(rom_address),
 	.clock(~clk),
 	.q(pm_data)
 	);
-	
+
 program_sequencer prog_sequencer (
 	 .clk(clk),
 	 .sync_reset(sync_reset),
-	 .jmp_addr(LS_nibble_ir), 	
+	 .jmp_addr(LS_nibble_ir),
 	 .jmp(jump),
 	 .jmp_nz(conditional_jump),
 	 .dont_jmp(zero_flag),
-	 .rom_address(rom_address),
-	 .pc(pc), 					
 	 .from_PS(from_PS),
+	 .pc(pc),
 	 .hold_out(hold_out),
+
 	 .cache_wroffset(wroffset),
 	 .cache_rdoffset(rdoffset),
+	 .cache_wrline(cache_wrline),
+	 .cache_rdline(cache_rdline),
 	 .cache_wren(wren),
-	 
-	 //for debugging
-	 .read_start_hold(show_start_hold),
-	 .read_end_hold(show_end_hold),
-	 .read_hold(show_hold),
-	 .read_hold_count(show_hold_count),
-	 .sync_reset_1(show_sync_reset_1),
+	 .rom_address(rom_address),
+
+	 .start_hold(start_hold),
+	 .end_hold(end_hold),
+	 .hold(hold),
+	 .hold_count(hold_count),
+	 .sync_reset_1(sync_reset_1),
 	 .reset_1shot(show_reset_1shot)
 	 );
 
-instruction_decoder inst_decoder( 
-	  .clk(clk), 
+instruction_decoder inst_decoder(
+	  .clk(clk),
 	  .sync_reset(sync_reset),
 	  .next_instr(cache_out),
-	  .hold_out(hold_out), 
+	  .hold_out(hold_out),
 	  .jmp(jump),
 	  .jump_nz(conditional_jump),
-	  .ir(ir), 
+	  .ir(ir),
 	  .ir_nibble(LS_nibble_ir),
 	  .i_sel(i_mux_select),
 	  .y_sel(y_mux_select),
@@ -137,9 +139,9 @@ instruction_decoder inst_decoder(
 	  .NOPCF(NOPCF),
 	  .NOPD8(NOPD8),
 	  .NOPDF(NOPDF)
-	 
+
 	  );
-		
+
 computational_unit comp_unit(
 	.clk(clk),
 	.sync_reset(sync_reset),
@@ -162,8 +164,7 @@ computational_unit comp_unit(
 	.y1(y1),
 	.m(m),
 	.r(r)
-	
+
 	);
 
 endmodule
-

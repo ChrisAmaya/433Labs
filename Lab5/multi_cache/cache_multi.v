@@ -6,7 +6,8 @@ module cache_multi( clk,
                     wroffset,
                     wren,
                     q,
-						  q_tmp);
+				    q_tmp
+                    );
 
 input clk;
 input [7:0] data;
@@ -50,4 +51,4 @@ begin
     endcase
 end
 
-endmodule 
+endmodule
