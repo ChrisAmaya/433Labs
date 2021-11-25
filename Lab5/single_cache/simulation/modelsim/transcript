@@ -1,0 +1,1392 @@
+# Loading project microprocessor
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project dut
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+vlog
+vlog dut_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:46 on Nov 23,2021
+# vlog -reportprogress 300 dut_tb.v 
+# -- Compiling module test_bench
+# ** Error: dut_tb.v(14): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(15): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(16): (vlog-2110) Illegal reference to net "y".
+# ** Error: dut_tb.v(22): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(28): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(29): (vlog-2110) Illegal reference to net "y".
+# End time: 13:20:46 on Nov 23,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/vlog failed.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 11 errors.
+# 2 compiles, 1 failed with 11 errors.
+vlog dut_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:27:58 on Nov 23,2021
+# vlog -reportprogress 300 dut_tb.v 
+# -- Compiling module test_bench
+# ** Error: dut_tb.v(7): In, out, or inout does not appear in port list: x.
+# ** Error: dut_tb.v(8): In, out, or inout does not appear in port list: y.
+# ** Error: dut_tb.v(9): In, out, or inout does not appear in port list: p.
+# ** Error: dut_tb.v(5): In, out, or inout does not appear in port list: clk.
+# ** Error: dut_tb.v(6): In, out, or inout does not appear in port list: rst.
+# ** Error: dut_tb.v(13): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(14): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(15): (vlog-2110) Illegal reference to net "y".
+# ** Error: dut_tb.v(21): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(27): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(28): (vlog-2110) Illegal reference to net "y".
+# End time: 13:27:58 on Nov 23,2021, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+# /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/vlog failed.
+vlog dut_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:27 on Nov 23,2021
+# vlog -reportprogress 300 dut_tb.v 
+# -- Compiling module test_bench
+# ** Error: dut_tb.v(13): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(14): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(15): (vlog-2110) Illegal reference to net "y".
+# ** Error: dut_tb.v(21): (vlog-2110) Illegal reference to net "clk".
+# ** Error: dut_tb.v(27): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(28): (vlog-2110) Illegal reference to net "y".
+# End time: 13:28:27 on Nov 23,2021, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/vlog failed.
+vlog dut_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:41 on Nov 23,2021
+# vlog -reportprogress 300 dut_tb.v 
+# -- Compiling module test_bench
+# ** Error: dut_tb.v(14): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(15): (vlog-2110) Illegal reference to net "y".
+# ** Error: dut_tb.v(27): (vlog-2110) Illegal reference to net "x".
+# ** Error: dut_tb.v(28): (vlog-2110) Illegal reference to net "y".
+# End time: 13:28:41 on Nov 23,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/vlog failed.
+vlog dut_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:28:50 on Nov 23,2021
+# vlog -reportprogress 300 dut_tb.v 
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+# End time: 13:28:51 on Nov 23,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.test_bench -L altera_mf_ver -L altera_ver -L cycloneive_ver
+# vsim work.test_bench -L altera_mf_ver -L altera_ver -L cycloneive_ver 
+# Start time: 13:29:19 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 13:29:27 on Nov 23,2021, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 15
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:29:38 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+quit -sim
+# End time: 13:31:13 on Nov 23,2021, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:31:30 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+quit -sim
+# End time: 13:32:47 on Nov 23,2021, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 2
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of dut_tb.v failed with 2 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:47:34 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p \
+sim:/test_bench/N \
+sim:/test_bench/i \
+sim:/test_bench/Uerror
+run -all
+# X: 157 | Y:  59 | Expected:  47 | Received: 65532
+# X: 193 | Y: 129 | Expected:  65 | Received: 65532
+# X: 210 | Y:  22 | Expected:  12 | Received: 65532
+# X: 234 | Y:  30 | Expected: 108 | Received: 65532
+# X: 153 | Y:  71 | Expected: 111 | Received: 65532
+# X: 249 | Y:   3 | Expected: 235 | Received: 65532
+# X:  90 | Y: 115 | Expected: 110 | Received: 65532
+# X: 107 | Y: 165 | Expected: 247 | Received: 65532
+# X: 232 | Y: 186 | Expected: 144 | Received: 65532
+# X: 154 | Y: 247 | Expected: 150 | Received: 65532
+# X: 197 | Y: 245 | Expected: 137 | Received: 65532
+# X: 206 | Y:  82 | Expected: 252 | Received: 65532
+# X: 107 | Y: 154 | Expected:  94 | Received: 65532
+# X:  70 | Y: 105 | Expected: 182 | Received: 65532
+# X: 231 | Y: 222 | Expected:  82 | Received: 65532
+# X: 142 | Y: 221 | Expected: 150 | Received: 65532
+# X:  89 | Y:  59 | Expected: 131 | Received: 65532
+# X: 156 | Y:  99 | Expected:  84 | Received: 65532
+# X:  74 | Y: 183 | Expected: 230 | Received: 65532
+# X:  98 | Y:  91 | Expected: 214 | Received: 65532
+# X: 160 | Y: 178 | Expected:  64 | Received: 65532
+# X:  73 | Y: 168 | Expected: 232 | Received: 65532
+# X:  38 | Y: 125 | Expected: 142 | Received: 65532
+# X:  41 | Y: 101 | Expected:  45 | Received: 65532
+# X:  70 | Y: 107 | Expected:  66 | Received: 65532
+# X: 186 | Y: 184 | Expected: 176 | Received: 65532
+# X:  91 | Y: 248 | Expected:  40 | Received: 65532
+# X:  33 | Y: 152 | Expected: 152 | Received: 65532
+# X: 217 | Y: 111 | Expected:  23 | Received: 65532
+# X: 124 | Y: 245 | Expected: 172 | Received: 65532
+# X: 183 | Y: 222 | Expected: 178 | Received: 65532
+# X: 146 | Y:  30 | Expected:  28 | Received: 65532
+# X: 152 | Y:   7 | Expected:  40 | Received: 65532
+# X: 149 | Y:  85 | Expected: 121 | Received: 65532
+# X: 201 | Y: 105 | Expected: 113 | Received: 65532
+# X: 217 | Y:  88 | Expected: 152 | Received: 65532
+# X: 143 | Y: 247 | Expected: 249 | Received: 65532
+# X: 148 | Y:  57 | Expected: 244 | Received: 65532
+# X: 221 | Y:  60 | Expected: 204 | Received: 65532
+# X: 189 | Y: 252 | Expected:  12 | Received: 65532
+# X:  82 | Y:  42 | Expected: 116 | Received: 65532
+# X: 188 | Y: 247 | Expected: 100 | Received: 65532
+# X: 198 | Y: 153 | Expected:  86 | Received: 65532
+# X: 113 | Y:  84 | Expected:  20 | Received: 65532
+# X:   3 | Y:   1 | Expected:   3 | Received: 65532
+# X:   9 | Y: 152 | Expected:  88 | Received: 65532
+# X:  33 | Y:  90 | Expected: 154 | Received: 65532
+# X: 171 | Y: 152 | Expected: 136 | Received: 65532
+# X: 109 | Y: 166 | Expected: 174 | Received: 65532
+# X:  73 | Y:   4 | Expected:  36 | Received: 65532
+# X: 108 | Y: 249 | Expected:  12 | Received: 65532
+# X:  36 | Y:  65 | Expected:  36 | Received: 65532
+# X:  56 | Y: 216 | Expected:  64 | Received: 65532
+# X: 175 | Y:  81 | Expected:  95 | Received: 65532
+# X:  21 | Y: 149 | Expected:  57 | Received: 65532
+# X: 236 | Y: 149 | Expected:  92 | Received: 65532
+# X: 196 | Y: 144 | Expected:  64 | Received: 65532
+# X: 227 | Y: 137 | Expected: 123 | Received: 65532
+# X: 219 | Y: 119 | Expected: 205 | Received: 65532
+# X: 129 | Y: 254 | Expected: 254 | Received: 65532
+# X:  82 | Y: 176 | Expected:  96 | Received: 65532
+# X: 130 | Y:  24 | Expected:  48 | Received: 65532
+# X: 204 | Y: 189 | Expected: 156 | Received: 65532
+# X:  97 | Y: 107 | Expected: 139 | Received: 65532
+# X: 145 | Y: 138 | Expected:  42 | Received: 65532
+# X:  29 | Y: 168 | Expected:   8 | Received: 65532
+# X: 145 | Y:  87 | Expected:  71 | Received: 65532
+# X:  51 | Y: 215 | Expected: 213 | Received: 65532
+# X: 236 | Y: 177 | Expected:  44 | Received: 65532
+# X:  27 | Y:  52 | Expected: 124 | Received: 65532
+# X: 250 | Y:  82 | Expected:  20 | Received: 65532
+# X:  55 | Y:  13 | Expected: 203 | Received: 65532
+# X: 192 | Y: 216 | Expected:   0 | Received: 65532
+# X: 140 | Y: 212 | Expected: 240 | Received: 65532
+# X: 127 | Y: 243 | Expected: 141 | Received: 65532
+# X: 134 | Y:  74 | Expected: 188 | Received: 65532
+# X: 115 | Y:  62 | Expected: 218 | Received: 65532
+# X:  28 | Y:  33 | Expected: 156 | Received: 65532
+# X: 189 | Y: 126 | Expected:   6 | Received: 65532
+# X: 156 | Y:  62 | Expected: 200 | Received: 65532
+# X: 215 | Y: 181 | Expected:   3 | Received: 65532
+# X:   1 | Y: 211 | Expected: 211 | Received: 65532
+# X:  63 | Y:  31 | Expected: 161 | Received: 65532
+# X:  27 | Y: 156 | Expected: 116 | Received: 65532
+# X: 137 | Y: 246 | Expected: 166 | Received: 65532
+# X:  32 | Y:  30 | Expected: 192 | Received: 65532
+# X: 193 | Y: 168 | Expected: 168 | Received: 65532
+# X:   5 | Y:  46 | Expected: 230 | Received: 65532
+# X: 107 | Y:  73 | Expected: 131 | Received: 65532
+# X: 209 | Y:  97 | Expected:  49 | Received: 65532
+# X: 211 | Y: 148 | Expected: 252 | Received: 65532
+# X: 166 | Y: 227 | Expected:  50 | Received: 65532
+# X: 215 | Y: 196 | Expected: 156 | Received: 65532
+# X: 169 | Y: 142 | Expected: 190 | Received: 65532
+# X: 168 | Y:  48 | Expected: 128 | Received: 65532
+# X:  88 | Y:  16 | Expected: 128 | Received: 65532
+# X: 240 | Y:  36 | Expected: 192 | Received: 65532
+# X: 159 | Y: 114 | Expected: 206 | Received: 65532
+# X: 169 | Y:  25 | Expected: 129 | Received: 65532
+# X:  68 | Y: 126 | Expected: 120 | Received: 65532
+# X: 221 | Y: 110 | Expected: 246 | Received: 65532
+# X:  56 | Y: 208 | Expected: 128 | Received: 65532
+# X: 210 | Y:  25 | Expected: 130 | Received: 65532
+# X:   5 | Y: 140 | Expected: 188 | Received: 65532
+# X: 244 | Y: 124 | Expected:  48 | Received: 65532
+# X:  76 | Y: 241 | Expected: 140 | Received: 65532
+# X:  49 | Y:  14 | Expected: 174 | Received: 65532
+# X: 207 | Y: 206 | Expected: 146 | Received: 65532
+# X: 178 | Y: 252 | Expected:  56 | Received: 65532
+# X: 100 | Y:  69 | Expected: 244 | Received: 65532
+# X: 126 | Y: 133 | Expected: 118 | Received: 65532
+# X: 196 | Y: 122 | Expected: 104 | Received: 65532
+# X: 153 | Y:  67 | Expected:  11 | Received: 65532
+# X: 206 | Y: 178 | Expected:  60 | Received: 65532
+# X: 224 | Y: 120 | Expected:   0 | Received: 65532
+# X: 244 | Y: 243 | Expected: 156 | Received: 65532
+# X:   3 | Y: 210 | Expected: 118 | Received: 65532
+# X: 242 | Y: 177 | Expected:  82 | Received: 65532
+# X:  62 | Y:  85 | Expected: 150 | Received: 65532
+# X: 209 | Y: 205 | Expected:  93 | Received: 65532
+# X:  39 | Y: 198 | Expected:  42 | Received: 65532
+# X:  76 | Y: 240 | Expected:  64 | Received: 65532
+# X:   4 | Y: 244 | Expected: 208 | Received: 65532
+# X: 250 | Y: 201 | Expected:  74 | Received: 65532
+# X:  50 | Y: 234 | Expected: 180 | Received: 65532
+# X:  41 | Y:  87 | Expected: 239 | Received: 65532
+# X: 194 | Y:   7 | Expected:  78 | Received: 65532
+# X: 194 | Y: 131 | Expected:  70 | Received: 65532
+# X:  37 | Y:  37 | Expected:  89 | Received: 65532
+# X: 202 | Y: 133 | Expected: 242 | Received: 65532
+# X:  10 | Y: 229 | Expected: 242 | Received: 65532
+# X: 143 | Y: 210 | Expected:  78 | Received: 65532
+# X: 126 | Y: 129 | Expected: 126 | Received: 65532
+# X: 166 | Y: 231 | Expected: 202 | Received: 65532
+# X:  57 | Y: 156 | Expected: 188 | Received: 65532
+# X: 197 | Y:   0 | Expected:   0 | Received: 65532
+# X: 234 | Y:  90 | Expected:  68 | Received: 65532
+# X: 111 | Y:  48 | Expected: 208 | Received: 65532
+# X: 217 | Y:  15 | Expected: 183 | Received: 65532
+# X: 106 | Y:  64 | Expected: 128 | Received: 65532
+# X: 170 | Y:  53 | Expected:  50 | Received: 65532
+# X:  72 | Y: 177 | Expected: 200 | Received: 65532
+# X: 197 | Y:  83 | Expected: 223 | Received: 65532
+# X:  67 | Y:  31 | Expected:  29 | Received: 65532
+# X: 128 | Y:  90 | Expected:   0 | Received: 65532
+# X:  50 | Y: 246 | Expected:  12 | Received: 65532
+# X:   4 | Y: 246 | Expected: 216 | Received: 65532
+# X: 211 | Y:  54 | Expected: 130 | Received: 65532
+# X:  45 | Y:   3 | Expected: 135 | Received: 65532
+# X: 148 | Y: 248 | Expected:  96 | Received: 65532
+# X: 248 | Y:  65 | Expected: 248 | Received: 65532
+# X: 117 | Y: 179 | Expected: 207 | Received: 65532
+# X: 113 | Y: 151 | Expected: 167 | Received: 65532
+# X:  46 | Y: 127 | Expected: 210 | Received: 65532
+# X: 157 | Y: 254 | Expected: 198 | Received: 65532
+# X: 124 | Y:  51 | Expected: 180 | Received: 65532
+# X: 216 | Y: 162 | Expected: 176 | Received: 65532
+# X:  35 | Y: 242 | Expected:  22 | Received: 65532
+# X: 245 | Y:  31 | Expected: 171 | Received: 65532
+# X: 135 | Y: 106 | Expected: 230 | Received: 65532
+# X: 232 | Y:  68 | Expected: 160 | Received: 65532
+# X: 204 | Y: 208 | Expected: 192 | Received: 65532
+# X: 224 | Y: 112 | Expected:   0 | Received: 65532
+# X: 114 | Y:  51 | Expected: 182 | Received: 65532
+# X: 221 | Y:  25 | Expected: 149 | Received: 65532
+# X:  77 | Y:  78 | Expected: 118 | Received: 65532
+# X:  92 | Y:  82 | Expected: 120 | Received: 65532
+# X: 100 | Y: 163 | Expected: 172 | Received: 65532
+# X:  39 | Y: 200 | Expected: 120 | Received: 65532
+# X: 236 | Y:  34 | Expected:  88 | Received: 65532
+# X:  79 | Y: 178 | Expected: 238 | Received: 65532
+# X:  83 | Y:  50 | Expected:  54 | Received: 65532
+# X: 251 | Y: 141 | Expected:  63 | Received: 65532
+# X:  23 | Y: 239 | Expected: 121 | Received: 65532
+# X:  83 | Y: 121 | Expected:  59 | Received: 65532
+# X:  44 | Y: 115 | Expected: 196 | Received: 65532
+# X:  25 | Y:  13 | Expected:  69 | Received: 65532
+# X:  89 | Y:  62 | Expected: 142 | Received: 65532
+# X: 118 | Y:   3 | Expected:  98 | Received: 65532
+# X:  70 | Y:  88 | Expected:  16 | Received: 65532
+# X: 168 | Y:   4 | Expected: 160 | Received: 65532
+# X: 196 | Y: 171 | Expected: 236 | Received: 65532
+# X:  74 | Y:  61 | Expected: 162 | Received: 65532
+# X: 188 | Y: 232 | Expected:  96 | Received: 65532
+# X:  84 | Y: 161 | Expected: 212 | Received: 65532
+# X: 152 | Y: 209 | Expected:  24 | Received: 65532
+# X: 144 | Y: 161 | Expected: 144 | Received: 65532
+# X:  69 | Y:  86 | Expected:  46 | Received: 65532
+# X: 113 | Y: 126 | Expected: 158 | Received: 65532
+# X: 194 | Y:  46 | Expected: 220 | Received: 65532
+# X:  93 | Y: 155 | Expected:  79 | Received: 65532
+# X: 182 | Y:  79 | Expected:  42 | Received: 65532
+# X: 160 | Y:  23 | Expected:  96 | Received: 65532
+# X: 204 | Y: 145 | Expected: 140 | Received: 65532
+# X:  20 | Y: 134 | Expected: 120 | Received: 65532
+# X:  77 | Y: 142 | Expected: 182 | Received: 65532
+# X: 119 | Y: 239 | Expected:  25 | Received: 65532
+# X:  72 | Y: 103 | Expected: 248 | Received: 65532
+# X: 173 | Y: 124 | Expected: 204 | Received: 65532
+# X: 238 | Y: 220 | Expected: 136 | Received: 65532
+# X:  14 | Y: 146 | Expected: 252 | Received: 65532
+# X: 181 | Y: 135 | Expected: 115 | Received: 65532
+# X: 194 | Y: 156 | Expected:  56 | Received: 65532
+# X: 234 | Y: 123 | Expected: 110 | Received: 65532
+# X:  78 | Y: 155 | Expected:  58 | Received: 65532
+# X: 209 | Y: 202 | Expected: 234 | Received: 65532
+# X: 166 | Y:  78 | Expected: 148 | Received: 65532
+# X: 125 | Y: 140 | Expected:  92 | Received: 65532
+# X:  34 | Y:  37 | Expected: 234 | Received: 65532
+# X: 195 | Y: 119 | Expected: 165 | Received: 65532
+# X: 102 | Y: 142 | Expected: 148 | Received: 65532
+# X: 232 | Y:  27 | Expected: 120 | Received: 65532
+# X:  39 | Y: 116 | Expected: 172 | Received: 65532
+# X: 201 | Y:  45 | Expected:  85 | Received: 65532
+# X: 251 | Y: 180 | Expected: 124 | Received: 65532
+# X: 251 | Y: 206 | Expected: 250 | Received: 65532
+# X: 129 | Y:  35 | Expected: 163 | Received: 65532
+# X:  11 | Y: 213 | Expected:  39 | Received: 65532
+# X:  51 | Y: 160 | Expected: 224 | Received: 65532
+# X:  34 | Y:  27 | Expected: 150 | Received: 65532
+# X: 115 | Y:  11 | Expected: 241 | Received: 65532
+# X: 202 | Y: 247 | Expected: 230 | Received: 65532
+# X:  63 | Y: 252 | Expected:   4 | Received: 65532
+# X: 125 | Y:  87 | Expected: 123 | Received: 65532
+# X: 224 | Y: 107 | Expected: 160 | Received: 65532
+# X:  77 | Y: 193 | Expected:  13 | Received: 65532
+# X: 224 | Y:  67 | Expected: 160 | Received: 65532
+# X: 160 | Y:  63 | Expected:  96 | Received: 65532
+# X: 233 | Y: 224 | Expected: 224 | Received: 65532
+# X: 234 | Y:  26 | Expected: 196 | Received: 65532
+# X: 235 | Y: 143 | Expected:  69 | Received: 65532
+# X:   5 | Y: 141 | Expected: 193 | Received: 65532
+# X:  52 | Y:  93 | Expected: 228 | Received: 65532
+# X:  40 | Y:  54 | Expected: 112 | Received: 65532
+# X: 119 | Y:  87 | Expected: 113 | Received: 65532
+# X:  94 | Y: 130 | Expected: 188 | Received: 65532
+# X: 226 | Y: 125 | Expected:  90 | Received: 65532
+# X:  43 | Y: 227 | Expected:  33 | Received: 65532
+# X:  59 | Y: 103 | Expected: 189 | Received: 65532
+# X:  54 | Y: 128 | Expected:   0 | Received: 65532
+# X: 143 | Y: 175 | Expected: 193 | Received: 65532
+# X:  94 | Y:  15 | Expected: 130 | Received: 65532
+# X: 129 | Y: 129 | Expected:   1 | Received: 65532
+# X: 129 | Y:  60 | Expected:  60 | Received: 65532
+# X: 217 | Y: 194 | Expected: 114 | Received: 65532
+# X:  61 | Y: 139 | Expected:  31 | Received: 65532
+# X: 112 | Y: 167 | Expected:  16 | Received: 65532
+# X: 177 | Y: 121 | Expected: 169 | Received: 65532
+# X: 167 | Y:  66 | Expected:  14 | Received: 65532
+# X: 244 | Y: 144 | Expected:  64 | Received: 65532
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(19)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 19
+quit -sim
+# End time: 13:54:06 on Nov 23,2021, Elapsed time: 0:06:32
+# Errors: 0, Warnings: 7
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:54:17 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 13:54:37 on Nov 23,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:54:44 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# X: 157 | Y:  59 | Expected:  47 | Received: 65532
+# X: 193 | Y: 129 | Expected:  65 | Received: 65532
+# X: 210 | Y:  22 | Expected:  12 | Received: 65535
+# X: 234 | Y:  30 | Expected: 108 | Received: 65533
+# X: 153 | Y:  71 | Expected: 111 | Received: 65531
+# X: 249 | Y:   3 | Expected: 235 | Received: 65531
+# X:  90 | Y: 115 | Expected: 110 | Received: 65535
+# X: 107 | Y: 165 | Expected: 247 | Received: 65535
+# X: 232 | Y: 186 | Expected: 144 | Received: 65535
+# X: 154 | Y: 247 | Expected: 150 | Received: 65535
+# X: 197 | Y: 245 | Expected: 137 | Received: 65411
+# X: 206 | Y:  82 | Expected: 252 | Received: 65535
+# X: 107 | Y: 154 | Expected:  94 | Received: 65533
+# X:  70 | Y: 105 | Expected: 182 | Received: 65531
+# X: 231 | Y: 222 | Expected:  82 | Received: 65535
+# X: 142 | Y: 221 | Expected: 150 | Received: 65534
+# X:  89 | Y:  59 | Expected: 131 | Received: 65535
+# X: 156 | Y:  99 | Expected:  84 | Received: 65534
+# X:  74 | Y: 183 | Expected: 230 | Received: 65535
+# X:  98 | Y:  91 | Expected: 214 | Received: 65531
+# X: 160 | Y: 178 | Expected:  64 | Received: 65535
+# X:  73 | Y: 168 | Expected: 232 | Received: 65535
+# X:  38 | Y: 125 | Expected: 142 | Received: 65507
+# X:  41 | Y: 101 | Expected:  45 | Received: 65532
+# X:  70 | Y: 107 | Expected:  66 | Received: 65534
+# X: 186 | Y: 184 | Expected: 176 | Received: 65533
+# X:  91 | Y: 248 | Expected:  40 | Received: 65535
+# X:  33 | Y: 152 | Expected: 152 | Received: 65532
+# X: 217 | Y: 111 | Expected:  23 | Received: 65532
+# X: 124 | Y: 245 | Expected: 172 | Received: 65532
+# X: 183 | Y: 222 | Expected: 178 | Received: 65535
+# X: 146 | Y:  30 | Expected:  28 | Received: 65532
+# X: 152 | Y:   7 | Expected:  40 | Received: 65535
+# X: 149 | Y:  85 | Expected: 121 | Received: 65531
+# X: 201 | Y: 105 | Expected: 113 | Received: 65523
+# X: 217 | Y:  88 | Expected: 152 | Received: 65533
+# X: 143 | Y: 247 | Expected: 249 | Received: 65533
+# X: 148 | Y:  57 | Expected: 244 | Received: 65532
+# X: 221 | Y:  60 | Expected: 204 | Received: 65533
+# X: 189 | Y: 252 | Expected:  12 | Received: 65532
+# X:  82 | Y:  42 | Expected: 116 | Received: 65532
+# X: 188 | Y: 247 | Expected: 100 | Received: 65532
+# X: 198 | Y: 153 | Expected:  86 | Received: 65507
+# X: 113 | Y:  84 | Expected:  20 | Received: 65531
+# X:   3 | Y:   1 | Expected:   3 | Received: 65534
+# X:   9 | Y: 152 | Expected:  88 | Received: 65532
+# X:  33 | Y:  90 | Expected: 154 | Received: 65535
+# X: 171 | Y: 152 | Expected: 136 | Received: 65532
+# X: 109 | Y: 166 | Expected: 174 | Received: 65535
+# X:  73 | Y:   4 | Expected:  36 | Received: 65532
+# X: 108 | Y: 249 | Expected:  12 | Received: 65532
+# X:  36 | Y:  65 | Expected:  36 | Received: 65532
+# X:  56 | Y: 216 | Expected:  64 | Received: 65532
+# X: 175 | Y:  81 | Expected:  95 | Received: 65532
+# X:  21 | Y: 149 | Expected:  57 | Received: 65532
+# X: 236 | Y: 149 | Expected:  92 | Received: 65532
+# X: 196 | Y: 144 | Expected:  64 | Received: 65532
+# X: 227 | Y: 137 | Expected: 123 | Received: 65532
+# X: 219 | Y: 119 | Expected: 205 | Received: 65532
+# X: 129 | Y: 254 | Expected: 254 | Received: 65532
+# X:  82 | Y: 176 | Expected:  96 | Received: 65532
+# X: 130 | Y:  24 | Expected:  48 | Received: 65532
+# X: 204 | Y: 189 | Expected: 156 | Received: 65532
+# X:  97 | Y: 107 | Expected: 139 | Received: 65532
+# X: 145 | Y: 138 | Expected:  42 | Received: 65532
+# X:  29 | Y: 168 | Expected:   8 | Received: 65532
+# X: 145 | Y:  87 | Expected:  71 | Received: 65532
+# X:  51 | Y: 215 | Expected: 213 | Received: 65532
+# X: 236 | Y: 177 | Expected:  44 | Received: 65532
+# X:  27 | Y:  52 | Expected: 124 | Received: 65532
+# X: 250 | Y:  82 | Expected:  20 | Received: 65532
+# X:  55 | Y:  13 | Expected: 203 | Received: 65532
+# X: 192 | Y: 216 | Expected:   0 | Received: 65532
+# X: 140 | Y: 212 | Expected: 240 | Received: 65532
+# X: 127 | Y: 243 | Expected: 141 | Received: 65532
+# X: 134 | Y:  74 | Expected: 188 | Received: 65532
+# X: 115 | Y:  62 | Expected: 218 | Received: 65532
+# X:  28 | Y:  33 | Expected: 156 | Received: 65532
+# X: 189 | Y: 126 | Expected:   6 | Received: 65532
+# X: 156 | Y:  62 | Expected: 200 | Received: 65532
+# X: 215 | Y: 181 | Expected:   3 | Received: 65532
+# X:   1 | Y: 211 | Expected: 211 | Received: 65532
+# X:  63 | Y:  31 | Expected: 161 | Received: 65532
+# X:  27 | Y: 156 | Expected: 116 | Received: 65532
+# X: 137 | Y: 246 | Expected: 166 | Received: 65532
+# X:  32 | Y:  30 | Expected: 192 | Received: 65532
+# X: 193 | Y: 168 | Expected: 168 | Received: 65532
+# X:   5 | Y:  46 | Expected: 230 | Received: 65532
+# X: 107 | Y:  73 | Expected: 131 | Received: 65532
+# X: 209 | Y:  97 | Expected:  49 | Received: 65532
+# X: 211 | Y: 148 | Expected: 252 | Received: 65532
+# X: 166 | Y: 227 | Expected:  50 | Received: 65532
+# X: 215 | Y: 196 | Expected: 156 | Received: 65532
+# X: 169 | Y: 142 | Expected: 190 | Received: 65532
+# X: 168 | Y:  48 | Expected: 128 | Received: 65532
+# X:  88 | Y:  16 | Expected: 128 | Received: 65532
+# X: 240 | Y:  36 | Expected: 192 | Received: 65532
+# X: 159 | Y: 114 | Expected: 206 | Received: 65532
+# X: 169 | Y:  25 | Expected: 129 | Received: 65532
+# X:  68 | Y: 126 | Expected: 120 | Received: 65532
+# X: 221 | Y: 110 | Expected: 246 | Received: 65532
+# X:  56 | Y: 208 | Expected: 128 | Received: 65532
+# X: 210 | Y:  25 | Expected: 130 | Received: 65532
+# X:   5 | Y: 140 | Expected: 188 | Received: 65532
+# X: 244 | Y: 124 | Expected:  48 | Received: 65532
+# X:  76 | Y: 241 | Expected: 140 | Received: 65532
+# X:  49 | Y:  14 | Expected: 174 | Received: 65532
+# X: 207 | Y: 206 | Expected: 146 | Received: 65532
+# X: 178 | Y: 252 | Expected:  56 | Received: 65532
+# X: 100 | Y:  69 | Expected: 244 | Received: 65532
+# X: 126 | Y: 133 | Expected: 118 | Received: 65532
+# X: 196 | Y: 122 | Expected: 104 | Received: 65532
+# X: 153 | Y:  67 | Expected:  11 | Received: 65532
+# X: 206 | Y: 178 | Expected:  60 | Received: 65532
+# X: 224 | Y: 120 | Expected:   0 | Received: 65532
+# X: 244 | Y: 243 | Expected: 156 | Received: 65532
+# X:   3 | Y: 210 | Expected: 118 | Received: 65532
+# X: 242 | Y: 177 | Expected:  82 | Received: 65532
+# X:  62 | Y:  85 | Expected: 150 | Received: 65532
+# X: 209 | Y: 205 | Expected:  93 | Received: 65532
+# X:  39 | Y: 198 | Expected:  42 | Received: 65532
+# X:  76 | Y: 240 | Expected:  64 | Received: 65532
+# X:   4 | Y: 244 | Expected: 208 | Received: 65532
+# X: 250 | Y: 201 | Expected:  74 | Received: 65532
+# X:  50 | Y: 234 | Expected: 180 | Received: 65532
+# X:  41 | Y:  87 | Expected: 239 | Received: 65532
+# X: 194 | Y:   7 | Expected:  78 | Received: 65532
+# X: 194 | Y: 131 | Expected:  70 | Received: 65532
+# X:  37 | Y:  37 | Expected:  89 | Received: 65532
+# X: 202 | Y: 133 | Expected: 242 | Received: 65532
+# X:  10 | Y: 229 | Expected: 242 | Received: 65532
+# X: 143 | Y: 210 | Expected:  78 | Received: 65532
+# X: 126 | Y: 129 | Expected: 126 | Received: 65532
+# X: 166 | Y: 231 | Expected: 202 | Received: 65532
+# X:  57 | Y: 156 | Expected: 188 | Received: 65532
+# X: 197 | Y:   0 | Expected:   0 | Received: 65532
+# X: 234 | Y:  90 | Expected:  68 | Received: 65532
+# X: 111 | Y:  48 | Expected: 208 | Received: 65532
+# X: 217 | Y:  15 | Expected: 183 | Received: 65532
+# X: 106 | Y:  64 | Expected: 128 | Received: 65532
+# X: 170 | Y:  53 | Expected:  50 | Received: 65532
+# X:  72 | Y: 177 | Expected: 200 | Received: 65532
+# X: 197 | Y:  83 | Expected: 223 | Received: 65532
+# X:  67 | Y:  31 | Expected:  29 | Received: 65532
+# X: 128 | Y:  90 | Expected:   0 | Received: 65532
+# X:  50 | Y: 246 | Expected:  12 | Received: 65532
+# X:   4 | Y: 246 | Expected: 216 | Received: 65532
+# X: 211 | Y:  54 | Expected: 130 | Received: 65532
+# X:  45 | Y:   3 | Expected: 135 | Received: 65532
+# X: 148 | Y: 248 | Expected:  96 | Received: 65532
+# X: 248 | Y:  65 | Expected: 248 | Received: 65532
+# X: 117 | Y: 179 | Expected: 207 | Received: 65532
+# X: 113 | Y: 151 | Expected: 167 | Received: 65532
+# X:  46 | Y: 127 | Expected: 210 | Received: 65532
+# X: 157 | Y: 254 | Expected: 198 | Received: 65532
+# X: 124 | Y:  51 | Expected: 180 | Received: 65532
+# X: 216 | Y: 162 | Expected: 176 | Received: 65532
+# X:  35 | Y: 242 | Expected:  22 | Received: 65532
+# X: 245 | Y:  31 | Expected: 171 | Received: 65532
+# X: 135 | Y: 106 | Expected: 230 | Received: 65532
+# X: 232 | Y:  68 | Expected: 160 | Received: 65532
+# X: 204 | Y: 208 | Expected: 192 | Received: 65532
+# X: 224 | Y: 112 | Expected:   0 | Received: 65532
+# X: 114 | Y:  51 | Expected: 182 | Received: 65532
+# X: 221 | Y:  25 | Expected: 149 | Received: 65532
+# X:  77 | Y:  78 | Expected: 118 | Received: 65532
+# X:  92 | Y:  82 | Expected: 120 | Received: 65532
+# X: 100 | Y: 163 | Expected: 172 | Received: 65532
+# X:  39 | Y: 200 | Expected: 120 | Received: 65532
+# X: 236 | Y:  34 | Expected:  88 | Received: 65532
+# X:  79 | Y: 178 | Expected: 238 | Received: 65532
+# X:  83 | Y:  50 | Expected:  54 | Received: 65532
+# X: 251 | Y: 141 | Expected:  63 | Received: 65532
+# X:  23 | Y: 239 | Expected: 121 | Received: 65532
+# X:  83 | Y: 121 | Expected:  59 | Received: 65532
+# X:  44 | Y: 115 | Expected: 196 | Received: 65532
+# X:  25 | Y:  13 | Expected:  69 | Received: 65532
+# X:  89 | Y:  62 | Expected: 142 | Received: 65532
+# X: 118 | Y:   3 | Expected:  98 | Received: 65532
+# X:  70 | Y:  88 | Expected:  16 | Received: 65532
+# X: 168 | Y:   4 | Expected: 160 | Received: 65532
+# X: 196 | Y: 171 | Expected: 236 | Received: 65532
+# X:  74 | Y:  61 | Expected: 162 | Received: 65532
+# X: 188 | Y: 232 | Expected:  96 | Received: 65532
+# X:  84 | Y: 161 | Expected: 212 | Received: 65532
+# X: 152 | Y: 209 | Expected:  24 | Received: 65532
+# X: 144 | Y: 161 | Expected: 144 | Received: 65532
+# X:  69 | Y:  86 | Expected:  46 | Received: 65532
+# X: 113 | Y: 126 | Expected: 158 | Received: 65532
+# X: 194 | Y:  46 | Expected: 220 | Received: 65532
+# X:  93 | Y: 155 | Expected:  79 | Received: 65532
+# X: 182 | Y:  79 | Expected:  42 | Received: 65532
+# X: 160 | Y:  23 | Expected:  96 | Received: 65532
+# X: 204 | Y: 145 | Expected: 140 | Received: 65532
+# X:  20 | Y: 134 | Expected: 120 | Received: 65532
+# X:  77 | Y: 142 | Expected: 182 | Received: 65532
+# X: 119 | Y: 239 | Expected:  25 | Received: 65532
+# X:  72 | Y: 103 | Expected: 248 | Received: 65532
+# X: 173 | Y: 124 | Expected: 204 | Received: 65532
+# X: 238 | Y: 220 | Expected: 136 | Received: 65532
+# X:  14 | Y: 146 | Expected: 252 | Received: 65532
+# X: 181 | Y: 135 | Expected: 115 | Received: 65532
+# X: 194 | Y: 156 | Expected:  56 | Received: 65532
+# X: 234 | Y: 123 | Expected: 110 | Received: 65532
+# X:  78 | Y: 155 | Expected:  58 | Received: 65532
+# X: 209 | Y: 202 | Expected: 234 | Received: 65532
+# X: 166 | Y:  78 | Expected: 148 | Received: 65532
+# X: 125 | Y: 140 | Expected:  92 | Received: 65532
+# X:  34 | Y:  37 | Expected: 234 | Received: 65532
+# X: 195 | Y: 119 | Expected: 165 | Received: 65532
+# X: 102 | Y: 142 | Expected: 148 | Received: 65532
+# X: 232 | Y:  27 | Expected: 120 | Received: 65532
+# X:  39 | Y: 116 | Expected: 172 | Received: 65532
+# X: 201 | Y:  45 | Expected:  85 | Received: 65532
+# X: 251 | Y: 180 | Expected: 124 | Received: 65532
+# X: 251 | Y: 206 | Expected: 250 | Received: 65532
+# X: 129 | Y:  35 | Expected: 163 | Received: 65532
+# X:  11 | Y: 213 | Expected:  39 | Received: 65532
+# X:  51 | Y: 160 | Expected: 224 | Received: 65532
+# X:  34 | Y:  27 | Expected: 150 | Received: 65532
+# X: 115 | Y:  11 | Expected: 241 | Received: 65532
+# X: 202 | Y: 247 | Expected: 230 | Received: 65532
+# X:  63 | Y: 252 | Expected:   4 | Received: 65532
+# X: 125 | Y:  87 | Expected: 123 | Received: 65532
+# X: 224 | Y: 107 | Expected: 160 | Received: 65532
+# X:  77 | Y: 193 | Expected:  13 | Received: 65532
+# X: 224 | Y:  67 | Expected: 160 | Received: 65532
+# X: 160 | Y:  63 | Expected:  96 | Received: 65532
+# X: 233 | Y: 224 | Expected: 224 | Received: 65532
+# X: 234 | Y:  26 | Expected: 196 | Received: 65532
+# X: 235 | Y: 143 | Expected:  69 | Received: 65532
+# X:   5 | Y: 141 | Expected: 193 | Received: 65532
+# X:  52 | Y:  93 | Expected: 228 | Received: 65532
+# X:  40 | Y:  54 | Expected: 112 | Received: 65532
+# X: 119 | Y:  87 | Expected: 113 | Received: 65532
+# X:  94 | Y: 130 | Expected: 188 | Received: 65532
+# X: 226 | Y: 125 | Expected:  90 | Received: 65532
+# X:  43 | Y: 227 | Expected:  33 | Received: 65532
+# X:  59 | Y: 103 | Expected: 189 | Received: 65532
+# X:  54 | Y: 128 | Expected:   0 | Received: 65532
+# X: 143 | Y: 175 | Expected: 193 | Received: 65532
+# X:  94 | Y:  15 | Expected: 130 | Received: 65532
+# X: 129 | Y: 129 | Expected:   1 | Received: 65532
+# X: 129 | Y:  60 | Expected:  60 | Received: 65532
+# X: 217 | Y: 194 | Expected: 114 | Received: 65532
+# X:  61 | Y: 139 | Expected:  31 | Received: 65532
+# X: 112 | Y: 167 | Expected:  16 | Received: 65532
+# X: 177 | Y: 121 | Expected: 169 | Received: 65532
+# X: 167 | Y:  66 | Expected:  14 | Received: 65532
+# X: 244 | Y: 144 | Expected:  64 | Received: 65532
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+quit -sim
+# End time: 13:56:47 on Nov 23,2021, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 2
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:57:14 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# X: 128 | Y:  42 | Expected:   0 | Received: 65532
+# X: 232 | Y:  92 | Expected:  96 | Received: 65532
+# X:  72 | Y:  77 | Expected: 168 | Received: 65532
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+quit -sim
+# End time: 13:58:15 on Nov 23,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 3
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:58:21 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# X: 128 | Y:  42 | Expected:   0 | Received: 65532
+# X: 232 | Y:  92 | Expected:  96 | Received: 65532
+# X:  72 | Y:  77 | Expected: 168 | Received:     3
+# X:  95 | Y:  37 | Expected: 187 | Received: 65532
+# X: 216 | Y: 184 | Expected:  64 | Received: 65532
+# X: 198 | Y: 182 | Expected: 196 | Received: 65535
+# X: 144 | Y: 247 | Expected: 240 | Received: 65532
+# X:  94 | Y:   6 | Expected:  52 | Received: 65531
+# X:  37 | Y: 102 | Expected: 190 | Received: 65507
+# X:   0 | Y: 120 | Expected:   0 | Received: 65531
+# X: 164 | Y: 159 | Expected: 220 | Received: 65535
+# X:   6 | Y: 195 | Expected: 146 | Received: 65532
+# X:  88 | Y: 193 | Expected:  88 | Received: 65531
+# X:  44 | Y:  83 | Expected:  68 | Received: 65535
+# X: 199 | Y: 229 | Expected:   3 | Received: 65532
+# X: 103 | Y:  10 | Expected:   6 | Received: 65531
+# X: 158 | Y: 181 | Expected: 182 | Received: 65535
+# X: 189 | Y:   6 | Expected: 110 | Received: 65535
+# X: 192 | Y: 216 | Expected:   0 | Received: 65534
+# X: 136 | Y: 123 | Expected:  88 | Received: 65535
+# X:  30 | Y: 145 | Expected: 254 | Received: 65532
+# X: 228 | Y:  27 | Expected:  12 | Received:     3
+# X:  21 | Y: 239 | Expected: 155 | Received: 65534
+# X:   2 | Y: 125 | Expected: 250 | Received:     3
+# X:  46 | Y:  88 | Expected: 208 | Received: 65535
+# X: 146 | Y:  95 | Expected:  46 | Received: 65534
+# X: 217 | Y:  69 | Expected: 125 | Received: 65532
+# X: 200 | Y: 234 | Expected: 208 | Received: 65535
+# X:  52 | Y: 121 | Expected: 148 | Received: 65533
+# X: 111 | Y:  46 | Expected: 242 | Received: 61443
+# X:  19 | Y:  44 | Expected:  68 | Received: 65532
+# X:   3 | Y: 128 | Expected: 128 | Received: 65535
+# X: 251 | Y: 190 | Expected:  74 | Received: 65532
+# X:   6 | Y: 144 | Expected:  96 | Received: 65532
+# X: 147 | Y:  21 | Expected:  15 | Received: 65535
+# X: 223 | Y:  46 | Expected:  18 | Received: 65532
+# X: 189 | Y: 163 | Expected:  87 | Received: 65535
+# X: 229 | Y:  50 | Expected: 186 | Received: 65535
+# X: 140 | Y: 193 | Expected: 140 | Received: 65535
+# X: 138 | Y:  29 | Expected: 162 | Received: 65535
+# X: 149 | Y: 227 | Expected:  31 | Received: 65532
+# X: 206 | Y:  27 | Expected: 186 | Received: 65534
+# X: 131 | Y: 190 | Expected:  58 | Received: 65535
+# X:  50 | Y: 174 | Expected: 252 | Received: 65535
+# X: 159 | Y: 114 | Expected: 206 | Received: 65535
+# X:  16 | Y:  60 | Expected: 192 | Received: 65531
+# X:   3 | Y:  67 | Expected: 201 | Received: 65535
+# X:  11 | Y:  23 | Expected: 253 | Received: 65532
+# X: 144 | Y: 160 | Expected:   0 | Received: 65533
+# X: 208 | Y: 209 | Expected: 208 | Received: 65533
+# X: 188 | Y:  68 | Expected: 240 | Received: 65532
+# X: 128 | Y: 250 | Expected:   0 | Received: 65532
+# X: 252 | Y: 193 | Expected: 252 | Received: 65532
+# X: 124 | Y: 141 | Expected:  76 | Received: 65532
+# X:  71 | Y: 243 | Expected: 101 | Received: 65532
+# X:  90 | Y: 181 | Expected: 162 | Received: 65532
+# X:   9 | Y: 242 | Expected: 130 | Received: 65532
+# X:  62 | Y: 156 | Expected: 200 | Received: 65532
+# X: 106 | Y: 131 | Expected:  62 | Received: 65532
+# X: 253 | Y: 139 | Expected:  95 | Received: 65532
+# X: 206 | Y:  74 | Expected: 140 | Received: 65532
+# X: 136 | Y: 110 | Expected: 112 | Received: 65532
+# X: 253 | Y:  35 | Expected: 151 | Received: 65532
+# X: 192 | Y: 151 | Expected:  64 | Received: 65532
+# X:  58 | Y:  83 | Expected: 206 | Received: 65532
+# X: 165 | Y:  84 | Expected:  36 | Received: 65532
+# X:  86 | Y: 131 | Expected:   2 | Received: 65532
+# X:  79 | Y: 153 | Expected:  55 | Received: 65532
+# X: 125 | Y: 216 | Expected: 120 | Received: 65532
+# X: 107 | Y: 244 | Expected: 252 | Received: 65532
+# X:  59 | Y: 109 | Expected:  31 | Received: 65532
+# X:  15 | Y: 133 | Expected: 203 | Received: 65532
+# X:  19 | Y:   1 | Expected:  19 | Received: 65532
+# X: 241 | Y: 136 | Expected:   8 | Received: 65532
+# X: 126 | Y: 207 | Expected: 226 | Received: 65532
+# X: 174 | Y: 238 | Expected: 196 | Received: 65532
+# X:  90 | Y: 180 | Expected:  72 | Received: 65532
+# X:  86 | Y: 228 | Expected: 152 | Received: 65532
+# X:  11 | Y:  22 | Expected: 242 | Received: 65532
+# X: 167 | Y:  61 | Expected: 203 | Received: 65532
+# X: 184 | Y:  91 | Expected: 104 | Received: 65532
+# X: 146 | Y:  88 | Expected:  48 | Received: 65532
+# X: 161 | Y: 190 | Expected: 126 | Received: 65532
+# X: 232 | Y: 176 | Expected: 128 | Received: 65532
+# X:  75 | Y: 226 | Expected:  54 | Received: 65532
+# X: 114 | Y: 102 | Expected: 108 | Received: 65532
+# X:   5 | Y:  90 | Expected: 194 | Received: 65532
+# X: 143 | Y:  67 | Expected: 109 | Received: 65532
+# X:  39 | Y:  35 | Expected:  85 | Received: 65532
+# X: 123 | Y:  57 | Expected:  99 | Received: 65532
+# X: 211 | Y: 194 | Expected: 230 | Received: 65532
+# X: 135 | Y:  59 | Expected:  29 | Received: 65532
+# X:  64 | Y: 123 | Expected: 192 | Received: 65532
+# X: 253 | Y: 242 | Expected:  42 | Received: 65532
+# X: 216 | Y: 185 | Expected:  24 | Received: 65532
+# X: 130 | Y: 183 | Expected: 238 | Received: 65532
+# X: 179 | Y: 215 | Expected:  85 | Received: 65532
+# X:  50 | Y: 206 | Expected:  60 | Received: 65532
+# X:   6 | Y: 189 | Expected: 110 | Received: 65532
+# X: 191 | Y: 224 | Expected:  32 | Received: 65532
+# X: 210 | Y: 242 | Expected: 132 | Received: 65532
+# X:  86 | Y:  13 | Expected:  94 | Received: 65532
+# X: 226 | Y:  73 | Expected: 114 | Received: 65531
+# X:   3 | Y:  27 | Expected:  81 | Received: 65534
+# X: 158 | Y: 251 | Expected: 234 | Received: 65534
+# X: 236 | Y: 182 | Expected: 200 | Received: 65533
+# X: 159 | Y:  73 | Expected:  87 | Received: 65535
+# X: 154 | Y: 201 | Expected: 234 | Received: 65523
+# X: 217 | Y: 117 | Expected:  45 | Received: 65535
+# X:   7 | Y:  36 | Expected: 252 | Received: 65534
+# X: 182 | Y: 254 | Expected: 148 | Received: 65533
+# X:  99 | Y:  41 | Expected: 219 | Received: 65532
+# X: 174 | Y: 117 | Expected: 134 | Received: 65531
+# X: 152 | Y:  93 | Expected:  56 | Received: 65535
+# X:  11 | Y:  18 | Expected: 198 | Received: 65534
+# X: 250 | Y: 186 | Expected: 164 | Received: 65532
+# X: 232 | Y:  46 | Expected: 176 | Received: 65535
+# X: 222 | Y:  80 | Expected:  96 | Received: 65411
+# X: 181 | Y:  14 | Expected: 230 | Received: 65507
+# X: 219 | Y: 168 | Expected: 184 | Received: 65532
+# X: 177 | Y: 201 | Expected: 249 | Received: 65535
+# X: 227 | Y: 197 | Expected: 175 | Received: 65532
+# X:  67 | Y:  32 | Expected:  96 | Received: 65533
+# X: 176 | Y: 228 | Expected: 192 | Received: 65535
+# X: 239 | Y: 148 | Expected:  44 | Received: 65532
+# X: 250 | Y:  52 | Expected: 200 | Received: 65532
+# X: 151 | Y:  42 | Expected: 198 | Received: 65532
+# X: 150 | Y:  46 | Expected: 244 | Received: 65532
+# X:  26 | Y: 122 | Expected: 100 | Received: 65535
+# X:  94 | Y:  95 | Expected: 226 | Received: 65531
+# X:  96 | Y:  41 | Expected:  96 | Received:     3
+# X: 135 | Y: 190 | Expected:  50 | Received: 65535
+# X: 192 | Y: 203 | Expected:  64 | Received: 65532
+# X: 218 | Y: 196 | Expected: 232 | Received: 65535
+# X:   4 | Y: 220 | Expected: 112 | Received: 65411
+# X: 198 | Y: 252 | Expected: 232 | Received: 65532
+# X: 131 | Y:  86 | Expected:   2 | Received: 65532
+# X: 125 | Y: 215 | Expected: 251 | Received: 65532
+# X:  54 | Y: 220 | Expected: 104 | Received: 65535
+# X:  92 | Y: 202 | Expected: 152 | Received: 65535
+# X: 166 | Y: 220 | Expected: 168 | Received: 65532
+# X: 105 | Y:  23 | Expected: 111 | Received: 65411
+# X:  21 | Y: 216 | Expected: 184 | Received: 65532
+# X: 175 | Y: 205 | Expected:  35 | Received: 65535
+# X:  69 | Y: 193 | Expected:   5 | Received: 65532
+# X: 169 | Y: 226 | Expected:  50 | Received: 65535
+# X: 212 | Y:  63 | Expected:  44 | Received: 65533
+# X:  32 | Y: 105 | Expected:  32 | Received: 65535
+# X: 244 | Y:  26 | Expected: 200 | Received: 65531
+# X:  24 | Y:  55 | Expected:  40 | Received: 65532
+# X: 246 | Y:  61 | Expected: 158 | Received: 65532
+# X: 187 | Y: 158 | Expected: 106 | Received: 65532
+# X:  16 | Y:   9 | Expected: 144 | Received: 65532
+# X:  90 | Y:  23 | Expected:  22 | Received: 65532
+# X:  31 | Y: 234 | Expected:  86 | Received: 65532
+# X: 247 | Y: 174 | Expected: 226 | Received: 65532
+# X: 141 | Y:  99 | Expected: 135 | Received: 65532
+# X: 231 | Y: 238 | Expected: 194 | Received: 65532
+# X: 107 | Y: 242 | Expected:  38 | Received: 65532
+# X: 134 | Y: 138 | Expected:  60 | Received: 65532
+# X: 101 | Y: 177 | Expected: 213 | Received: 65532
+# X:  29 | Y: 173 | Expected: 153 | Received: 65532
+# X:  93 | Y: 104 | Expected: 200 | Received: 65532
+# X:  60 | Y:  41 | Expected: 156 | Received: 65532
+# X: 130 | Y: 122 | Expected: 244 | Received: 65532
+# X: 112 | Y: 165 | Expected:  48 | Received: 65532
+# X:  94 | Y: 253 | Expected: 230 | Received: 65532
+# X: 243 | Y: 139 | Expected: 241 | Received: 65532
+# X:  65 | Y: 210 | Expected:  82 | Received: 65532
+# X: 162 | Y:  95 | Expected:  30 | Received: 65532
+# X: 199 | Y: 132 | Expected: 156 | Received: 65532
+# X: 154 | Y: 182 | Expected: 124 | Received: 65532
+# X: 148 | Y:  82 | Expected: 104 | Received: 65532
+# X:   8 | Y:  25 | Expected: 200 | Received: 65532
+# X: 121 | Y: 190 | Expected: 206 | Received: 65532
+# X:  55 | Y:  88 | Expected: 232 | Received: 65532
+# X: 150 | Y:  81 | Expected: 118 | Received: 65532
+# X: 219 | Y:  48 | Expected:  16 | Received: 65532
+# X:  21 | Y: 142 | Expected: 166 | Received: 65532
+# X:  21 | Y:  89 | Expected:  77 | Received: 65532
+# X: 204 | Y:  97 | Expected:  76 | Received: 65532
+# X: 186 | Y:  69 | Expected:  34 | Received: 65532
+# X: 172 | Y:  82 | Expected:  24 | Received: 65532
+# X: 236 | Y:  45 | Expected: 124 | Received: 65532
+# X: 226 | Y:  64 | Expected: 128 | Received: 65532
+# X:   1 | Y:  65 | Expected:  65 | Received: 65532
+# X:  23 | Y: 185 | Expected: 159 | Received: 65532
+# X:  35 | Y: 254 | Expected: 186 | Received: 65532
+# X:  11 | Y: 238 | Expected:  58 | Received: 65532
+# X: 104 | Y:  32 | Expected:   0 | Received: 65532
+# X: 199 | Y: 209 | Expected: 119 | Received: 65532
+# X:  32 | Y: 158 | Expected: 192 | Received: 65532
+# X: 206 | Y:  46 | Expected:   4 | Received: 65532
+# X: 153 | Y: 152 | Expected: 216 | Received: 65532
+# X:  57 | Y: 101 | Expected: 125 | Received: 65532
+# X: 175 | Y:  83 | Expected: 189 | Received: 65532
+# X: 150 | Y:  89 | Expected:  38 | Received: 65532
+# X: 211 | Y: 125 | Expected:   7 | Received: 65532
+# X: 249 | Y: 179 | Expected:  27 | Received: 65532
+# X: 102 | Y: 102 | Expected: 164 | Received: 65532
+# X: 163 | Y: 112 | Expected:  80 | Received: 65532
+# X: 159 | Y: 255 | Expected:  97 | Received: 65531
+# X:  31 | Y: 112 | Expected: 144 | Received: 65532
+# X:  53 | Y: 148 | Expected: 164 | Received: 65533
+# X: 171 | Y: 130 | Expected: 214 | Received: 65532
+# X: 168 | Y: 199 | Expected: 152 | Received: 65532
+# X: 119 | Y:  19 | Expected: 213 | Received: 65535
+# X: 231 | Y:  56 | Expected: 136 | Received: 65523
+# X: 244 | Y: 117 | Expected: 132 | Received: 65533
+# X: 129 | Y: 197 | Expected:  69 | Received: 65532
+# X:  44 | Y: 131 | Expected: 132 | Received: 65532
+# X: 205 | Y:  95 | Expected:  19 | Received: 65533
+# X:  13 | Y:   0 | Expected:   0 | Received: 65531
+# X: 154 | Y: 231 | Expected: 246 | Received: 65535
+# X: 251 | Y: 253 | Expected:  15 | Received: 65532
+# X: 107 | Y: 141 | Expected: 239 | Received: 65535
+# X:  24 | Y:  18 | Expected: 176 | Received: 65535
+# X:  52 | Y: 150 | Expected: 120 | Received: 65535
+# X:  19 | Y:  98 | Expected:  70 | Received:     3
+# X:  55 | Y: 123 | Expected: 109 | Received: 65523
+# X: 147 | Y: 123 | Expected: 161 | Received: 65535
+# X: 106 | Y:   2 | Expected: 212 | Received: 65533
+# X:  92 | Y: 195 | Expected:  20 | Received: 65533
+# X: 114 | Y: 118 | Expected: 140 | Received: 65531
+# X: 199 | Y: 221 | Expected: 203 | Received: 65531
+# X:  72 | Y:  71 | Expected: 248 | Received: 65531
+# X: 111 | Y:  68 | Expected: 124 | Received: 65535
+# X: 247 | Y: 183 | Expected: 145 | Received: 65523
+# X: 188 | Y:   4 | Expected: 240 | Received: 65532
+# X: 247 | Y:  85 | Expected:   3 | Received: 65533
+# X:  20 | Y:  80 | Expected:  64 | Received: 65532
+# X:  63 | Y: 109 | Expected: 211 | Received: 65535
+# X: 177 | Y: 112 | Expected: 112 | Received: 65532
+# X: 243 | Y: 174 | Expected:  42 | Received: 65535
+# X:  74 | Y:  25 | Expected:  58 | Received: 65532
+# X:  84 | Y: 173 | Expected: 196 | Received: 65535
+# X:  63 | Y:  83 | Expected: 109 | Received: 65534
+# X:  85 | Y: 249 | Expected: 173 | Received: 65532
+# X: 224 | Y: 112 | Expected:   0 | Received: 65533
+# X: 234 | Y:  31 | Expected:  86 | Received: 65533
+# X: 246 | Y: 188 | Expected: 168 | Received: 65532
+# X:  38 | Y: 102 | Expected:  36 | Received: 65535
+# X: 172 | Y: 227 | Expected: 132 | Received: 65532
+# X: 121 | Y: 145 | Expected: 137 | Received: 65531
+# X: 151 | Y:  44 | Expected: 244 | Received: 65531
+# X: 211 | Y: 199 | Expected:   5 | Received: 65533
+# X:  67 | Y:  41 | Expected: 187 | Received: 65532
+# X: 112 | Y:  66 | Expected: 224 | Received: 65533
+# X: 207 | Y:  98 | Expected:  62 | Received: 65535
+# X: 153 | Y: 169 | Expected:   1 | Received:     3
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+quit -sim
+# End time: 13:59:00 on Nov 23,2021, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# Compile of booth_8x8_radix_4_approx.vo was successful.
+# Compile of dut_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.test_bench 
+# Start time: 13:59:08 on Nov 23,2021
+# Loading work.test_bench
+# Loading work.booth_8x8_radix_4_approx
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/test_bench/clk \
+sim:/test_bench/rst \
+sim:/test_bench/x \
+sim:/test_bench/y \
+sim:/test_bench/p
+run -all
+# X: 128 | Y:  42 | Expected:   0 | Received: 65532
+# X: 232 | Y:  92 | Expected:  96 | Received: 65532
+# X:  72 | Y:  77 | Expected: 168 | Received:     3
+# X:  95 | Y:  37 | Expected: 187 | Received: 65532
+# X: 216 | Y: 184 | Expected:  64 | Received: 65532
+# X: 198 | Y: 182 | Expected: 196 | Received: 65535
+# X: 144 | Y: 247 | Expected: 240 | Received: 65532
+# X:  94 | Y:   6 | Expected:  52 | Received: 65531
+# X:  37 | Y: 102 | Expected: 190 | Received: 65507
+# X:   0 | Y: 120 | Expected:   0 | Received: 65531
+# X: 164 | Y: 159 | Expected: 220 | Received: 65535
+# X:   6 | Y: 195 | Expected: 146 | Received: 65532
+# X:  88 | Y: 193 | Expected:  88 | Received: 65531
+# X:  44 | Y:  83 | Expected:  68 | Received: 65535
+# X: 199 | Y: 229 | Expected:   3 | Received: 65532
+# X: 103 | Y:  10 | Expected:   6 | Received: 65531
+# X: 158 | Y: 181 | Expected: 182 | Received: 65535
+# X: 189 | Y:   6 | Expected: 110 | Received: 65535
+# X: 192 | Y: 216 | Expected:   0 | Received: 65534
+# X: 136 | Y: 123 | Expected:  88 | Received: 65535
+# X:  30 | Y: 145 | Expected: 254 | Received: 65532
+# X: 228 | Y:  27 | Expected:  12 | Received:     3
+# X:  21 | Y: 239 | Expected: 155 | Received: 65534
+# X:   2 | Y: 125 | Expected: 250 | Received:     3
+# X:  46 | Y:  88 | Expected: 208 | Received: 65535
+# X: 146 | Y:  95 | Expected:  46 | Received: 65534
+# X: 217 | Y:  69 | Expected: 125 | Received: 65532
+# X: 200 | Y: 234 | Expected: 208 | Received: 65535
+# X:  52 | Y: 121 | Expected: 148 | Received: 65533
+# X: 111 | Y:  46 | Expected: 242 | Received: 61443
+# X:  19 | Y:  44 | Expected:  68 | Received: 65532
+# X:   3 | Y: 128 | Expected: 128 | Received: 65535
+# X: 251 | Y: 190 | Expected:  74 | Received: 65532
+# X:   6 | Y: 144 | Expected:  96 | Received: 65532
+# X: 147 | Y:  21 | Expected:  15 | Received: 65535
+# X: 223 | Y:  46 | Expected:  18 | Received: 65532
+# X: 189 | Y: 163 | Expected:  87 | Received: 65535
+# X: 229 | Y:  50 | Expected: 186 | Received: 65535
+# X: 140 | Y: 193 | Expected: 140 | Received: 65535
+# X: 138 | Y:  29 | Expected: 162 | Received: 65535
+# X: 149 | Y: 227 | Expected:  31 | Received: 65532
+# X: 206 | Y:  27 | Expected: 186 | Received: 65534
+# X: 131 | Y: 190 | Expected:  58 | Received: 65535
+# X:  50 | Y: 174 | Expected: 252 | Received: 65535
+# X: 159 | Y: 114 | Expected: 206 | Received: 65535
+# X:  16 | Y:  60 | Expected: 192 | Received: 65531
+# X:   3 | Y:  67 | Expected: 201 | Received: 65535
+# X:  11 | Y:  23 | Expected: 253 | Received: 65532
+# X: 144 | Y: 160 | Expected:   0 | Received: 65533
+# X: 208 | Y: 209 | Expected: 208 | Received: 65533
+# X: 188 | Y:  68 | Expected: 240 | Received: 65532
+# X: 128 | Y: 250 | Expected:   0 | Received: 65532
+# X: 252 | Y: 193 | Expected: 252 | Received: 65532
+# X: 124 | Y: 141 | Expected:  76 | Received:     3
+# X:  71 | Y: 243 | Expected: 101 | Received: 65532
+# X:  90 | Y: 181 | Expected: 162 | Received: 65532
+# X:   9 | Y: 242 | Expected: 130 | Received: 65533
+# X:  62 | Y: 156 | Expected: 200 | Received: 65534
+# X: 106 | Y: 131 | Expected:  62 | Received: 65535
+# X: 253 | Y: 139 | Expected:  95 | Received: 65532
+# X: 206 | Y:  74 | Expected: 140 | Received: 65535
+# X: 136 | Y: 110 | Expected: 112 | Received: 65535
+# X: 253 | Y:  35 | Expected: 151 | Received: 65523
+# X: 192 | Y: 151 | Expected:  64 | Received: 65507
+# X:  58 | Y:  83 | Expected: 206 | Received: 65535
+# X: 165 | Y:  84 | Expected:  36 | Received: 65411
+# X:  86 | Y: 131 | Expected:   2 | Received: 65535
+# X:  79 | Y: 153 | Expected:  55 | Received: 65532
+# X: 125 | Y: 216 | Expected: 120 | Received: 65535
+# X: 107 | Y: 244 | Expected: 252 | Received: 65535
+# X:  59 | Y: 109 | Expected:  31 | Received: 65532
+# X:  15 | Y: 133 | Expected: 203 | Received: 65532
+# X:  19 | Y:   1 | Expected:  19 | Received: 65535
+# X: 241 | Y: 136 | Expected:   8 | Received: 65535
+# X: 126 | Y: 207 | Expected: 226 | Received: 65535
+# X: 174 | Y: 238 | Expected: 196 | Received: 65532
+# X:  90 | Y: 180 | Expected:  72 | Received: 65535
+# X:  86 | Y: 228 | Expected: 152 | Received: 65531
+# X:  11 | Y:  22 | Expected: 242 | Received: 65532
+# X: 167 | Y:  61 | Expected: 203 | Received: 65532
+# X: 184 | Y:  91 | Expected: 104 | Received: 65535
+# X: 146 | Y:  88 | Expected:  48 | Received: 65535
+# X: 161 | Y: 190 | Expected: 126 | Received:     3
+# X: 232 | Y: 176 | Expected: 128 | Received: 65532
+# X:  75 | Y: 226 | Expected:  54 | Received: 65535
+# X: 114 | Y: 102 | Expected: 108 | Received: 65532
+# X:   5 | Y:  90 | Expected: 194 | Received: 65535
+# X: 143 | Y:  67 | Expected: 109 | Received: 65531
+# X:  39 | Y:  35 | Expected:  85 | Received: 65535
+# X: 123 | Y:  57 | Expected:  99 | Received: 65533
+# X: 211 | Y: 194 | Expected: 230 | Received: 65533
+# X: 135 | Y:  59 | Expected:  29 | Received: 65535
+# X:  64 | Y: 123 | Expected: 192 | Received: 65535
+# X: 253 | Y: 242 | Expected:  42 | Received: 65533
+# X: 216 | Y: 185 | Expected:  24 | Received:     3
+# X: 130 | Y: 183 | Expected: 238 | Received: 65535
+# X: 179 | Y: 215 | Expected:  85 | Received: 65532
+# X:  50 | Y: 206 | Expected:  60 | Received: 65535
+# X:   6 | Y: 189 | Expected: 110 | Received: 65533
+# X: 191 | Y: 224 | Expected:  32 | Received: 65531
+# X: 210 | Y: 242 | Expected: 132 | Received: 65534
+# X:  86 | Y:  13 | Expected:  94 | Received: 65532
+# X: 226 | Y:  73 | Expected: 114 | Received: 65531
+# X:   3 | Y:  27 | Expected:  81 | Received: 65534
+# X: 158 | Y: 251 | Expected: 234 | Received: 65534
+# X: 236 | Y: 182 | Expected: 200 | Received: 65533
+# X: 159 | Y:  73 | Expected:  87 | Received: 65535
+# X: 154 | Y: 201 | Expected: 234 | Received: 65523
+# X: 217 | Y: 117 | Expected:  45 | Received: 65535
+# X:   7 | Y:  36 | Expected: 252 | Received: 65534
+# X: 182 | Y: 254 | Expected: 148 | Received: 65533
+# X:  99 | Y:  41 | Expected: 219 | Received: 65532
+# X: 174 | Y: 117 | Expected: 134 | Received: 65531
+# X: 152 | Y:  93 | Expected:  56 | Received: 65535
+# X:  11 | Y:  18 | Expected: 198 | Received: 65534
+# X: 250 | Y: 186 | Expected: 164 | Received: 65532
+# X: 232 | Y:  46 | Expected: 176 | Received: 65535
+# X: 222 | Y:  80 | Expected:  96 | Received: 65411
+# X: 181 | Y:  14 | Expected: 230 | Received: 65507
+# X: 219 | Y: 168 | Expected: 184 | Received: 65532
+# X: 177 | Y: 201 | Expected: 249 | Received: 65535
+# X: 227 | Y: 197 | Expected: 175 | Received: 65532
+# X:  67 | Y:  32 | Expected:  96 | Received: 65533
+# X: 176 | Y: 228 | Expected: 192 | Received: 65535
+# X: 239 | Y: 148 | Expected:  44 | Received: 65532
+# X: 250 | Y:  52 | Expected: 200 | Received: 65532
+# X: 151 | Y:  42 | Expected: 198 | Received: 65532
+# X: 150 | Y:  46 | Expected: 244 | Received: 65532
+# X:  26 | Y: 122 | Expected: 100 | Received: 65535
+# X:  94 | Y:  95 | Expected: 226 | Received: 65531
+# X:  96 | Y:  41 | Expected:  96 | Received:     3
+# X: 135 | Y: 190 | Expected:  50 | Received: 65535
+# X: 192 | Y: 203 | Expected:  64 | Received: 65532
+# X: 218 | Y: 196 | Expected: 232 | Received: 65535
+# X:   4 | Y: 220 | Expected: 112 | Received: 65411
+# X: 198 | Y: 252 | Expected: 232 | Received: 65532
+# X: 131 | Y:  86 | Expected:   2 | Received: 65532
+# X: 125 | Y: 215 | Expected: 251 | Received: 65532
+# X:  54 | Y: 220 | Expected: 104 | Received: 65535
+# X:  92 | Y: 202 | Expected: 152 | Received: 65535
+# X: 166 | Y: 220 | Expected: 168 | Received: 65532
+# X: 105 | Y:  23 | Expected: 111 | Received: 65411
+# X:  21 | Y: 216 | Expected: 184 | Received: 65532
+# X: 175 | Y: 205 | Expected:  35 | Received: 65535
+# X:  69 | Y: 193 | Expected:   5 | Received: 65532
+# X: 169 | Y: 226 | Expected:  50 | Received: 65535
+# X: 212 | Y:  63 | Expected:  44 | Received: 65533
+# X:  32 | Y: 105 | Expected:  32 | Received: 65535
+# X: 244 | Y:  26 | Expected: 200 | Received: 65531
+# X:  24 | Y:  55 | Expected:  40 | Received: 65532
+# X: 246 | Y:  61 | Expected: 158 | Received:     3
+# X: 187 | Y: 158 | Expected: 106 | Received: 65523
+# X:  16 | Y:   9 | Expected: 144 | Received: 65534
+# X:  90 | Y:  23 | Expected:  22 | Received: 65535
+# X:  31 | Y: 234 | Expected:  86 | Received: 65532
+# X: 247 | Y: 174 | Expected: 226 | Received: 65535
+# X: 141 | Y:  99 | Expected: 135 | Received: 65535
+# X: 231 | Y: 238 | Expected: 194 | Received: 65535
+# X: 107 | Y: 242 | Expected:  38 | Received: 65535
+# X: 134 | Y: 138 | Expected:  60 | Received: 65535
+# X: 101 | Y: 177 | Expected: 213 | Received: 65535
+# X:  29 | Y: 173 | Expected: 153 | Received: 65523
+# X:  93 | Y: 104 | Expected: 200 | Received: 65533
+# X:  60 | Y:  41 | Expected: 156 | Received: 65533
+# X: 130 | Y: 122 | Expected: 244 | Received: 65532
+# X: 112 | Y: 165 | Expected:  48 | Received: 65532
+# X:  94 | Y: 253 | Expected: 230 | Received:     3
+# X: 243 | Y: 139 | Expected: 241 | Received: 65532
+# X:  65 | Y: 210 | Expected:  82 | Received: 65534
+# X: 162 | Y:  95 | Expected:  30 | Received: 65533
+# X: 199 | Y: 132 | Expected: 156 | Received: 65535
+# X: 154 | Y: 182 | Expected: 124 | Received: 65535
+# X: 148 | Y:  82 | Expected: 104 | Received: 65532
+# X:   8 | Y:  25 | Expected: 200 | Received: 65531
+# X: 121 | Y: 190 | Expected: 206 | Received: 65523
+# X:  55 | Y:  88 | Expected: 232 | Received: 65532
+# X: 150 | Y:  81 | Expected: 118 | Received: 65535
+# X: 219 | Y:  48 | Expected:  16 | Received: 65532
+# X:  21 | Y: 142 | Expected: 166 | Received: 65534
+# X:  21 | Y:  89 | Expected:  77 | Received: 65532
+# X: 204 | Y:  97 | Expected:  76 | Received: 65535
+# X: 186 | Y:  69 | Expected:  34 | Received: 65533
+# X: 172 | Y:  82 | Expected:  24 | Received: 65532
+# X: 236 | Y:  45 | Expected: 124 | Received: 65534
+# X: 226 | Y:  64 | Expected: 128 | Received: 65523
+# X:   1 | Y:  65 | Expected:  65 | Received: 65532
+# X:  23 | Y: 185 | Expected: 159 | Received: 65532
+# X:  35 | Y: 254 | Expected: 186 | Received: 65533
+# X:  11 | Y: 238 | Expected:  58 | Received: 65535
+# X: 104 | Y:  32 | Expected:   0 | Received: 65535
+# X: 199 | Y: 209 | Expected: 119 | Received: 65535
+# X:  32 | Y: 158 | Expected: 192 | Received: 65532
+# X: 206 | Y:  46 | Expected:   4 | Received: 65535
+# X: 153 | Y: 152 | Expected: 216 | Received: 65411
+# X:  57 | Y: 101 | Expected: 125 | Received: 65531
+# X: 175 | Y:  83 | Expected: 189 | Received: 65532
+# X: 150 | Y:  89 | Expected:  38 | Received: 65533
+# X: 211 | Y: 125 | Expected:   7 | Received: 65533
+# X: 249 | Y: 179 | Expected:  27 | Received: 65534
+# X: 102 | Y: 102 | Expected: 164 | Received: 65535
+# X: 163 | Y: 112 | Expected:  80 | Received: 65532
+# X: 159 | Y: 255 | Expected:  97 | Received: 65532
+# X:  31 | Y: 112 | Expected: 144 | Received: 65532
+# X:  53 | Y: 148 | Expected: 164 | Received: 65532
+# X: 171 | Y: 130 | Expected: 214 | Received: 65532
+# X: 168 | Y: 199 | Expected: 152 | Received: 65532
+# X: 119 | Y:  19 | Expected: 213 | Received: 65532
+# X: 231 | Y:  56 | Expected: 136 | Received: 65532
+# X: 244 | Y: 117 | Expected: 132 | Received: 65532
+# X: 129 | Y: 197 | Expected:  69 | Received: 65532
+# X:  44 | Y: 131 | Expected: 132 | Received: 65532
+# X: 205 | Y:  95 | Expected:  19 | Received: 65532
+# X:  13 | Y:   0 | Expected:   0 | Received: 65532
+# X: 154 | Y: 231 | Expected: 246 | Received: 65532
+# X: 251 | Y: 253 | Expected:  15 | Received: 65532
+# X: 107 | Y: 141 | Expected: 239 | Received: 65532
+# X:  24 | Y:  18 | Expected: 176 | Received: 65532
+# X:  52 | Y: 150 | Expected: 120 | Received: 65532
+# X:  19 | Y:  98 | Expected:  70 | Received: 65532
+# X:  55 | Y: 123 | Expected: 109 | Received: 65532
+# X: 147 | Y: 123 | Expected: 161 | Received: 65532
+# X: 106 | Y:   2 | Expected: 212 | Received: 65532
+# X:  92 | Y: 195 | Expected:  20 | Received: 65532
+# X: 114 | Y: 118 | Expected: 140 | Received: 65532
+# X: 199 | Y: 221 | Expected: 203 | Received: 65532
+# X:  72 | Y:  71 | Expected: 248 | Received: 65532
+# X: 111 | Y:  68 | Expected: 124 | Received: 65532
+# X: 247 | Y: 183 | Expected: 145 | Received: 65532
+# X: 188 | Y:   4 | Expected: 240 | Received: 65532
+# X: 247 | Y:  85 | Expected:   3 | Received: 65532
+# X:  20 | Y:  80 | Expected:  64 | Received: 65532
+# X:  63 | Y: 109 | Expected: 211 | Received: 65532
+# X: 177 | Y: 112 | Expected: 112 | Received: 65532
+# X: 243 | Y: 174 | Expected:  42 | Received: 65532
+# X:  74 | Y:  25 | Expected:  58 | Received: 65532
+# X:  84 | Y: 173 | Expected: 196 | Received: 65532
+# X:  63 | Y:  83 | Expected: 109 | Received: 65532
+# X:  85 | Y: 249 | Expected: 173 | Received: 65532
+# X: 224 | Y: 112 | Expected:   0 | Received: 65532
+# X: 234 | Y:  31 | Expected:  86 | Received: 65532
+# X: 246 | Y: 188 | Expected: 168 | Received: 65532
+# X:  38 | Y: 102 | Expected:  36 | Received: 65532
+# X: 172 | Y: 227 | Expected: 132 | Received: 65532
+# X: 121 | Y: 145 | Expected: 137 | Received: 65532
+# X: 151 | Y:  44 | Expected: 244 | Received: 65532
+# X: 211 | Y: 199 | Expected:   5 | Received: 65532
+# X:  67 | Y:  41 | Expected: 187 | Received: 65532
+# X: 112 | Y:  66 | Expected: 224 | Received: 65532
+# X: 207 | Y:  98 | Expected:  62 | Received: 65532
+# X: 153 | Y: 169 | Expected:   1 | Received: 65532
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v(18)
+#    Time: 500 ns  Iteration: 0  Instance: /test_bench
+# Break in Module test_bench at /home/caa746/engr-ece/CME433/LiteratureReview/433_LiteratureReview/Prototypes/dut-approx/simulation/modelsim/dut_tb.v line 18
+# A time value could not be extracted from the current line
+quit -sim
+# End time: 14:09:53 on Nov 23,2021, Elapsed time: 0:10:45
+# Errors: 0, Warnings: 2
