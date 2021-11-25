@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at comb_logic.v(4): always construct contains both blocking and non-blocking assignments File: /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/comb_logic.v Line: 4

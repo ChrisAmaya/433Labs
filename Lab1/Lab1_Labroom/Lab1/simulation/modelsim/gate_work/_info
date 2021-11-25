@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/caa746/engr-ece/CME433/Lab1/simulation/modelsim
+vhard_block
+Z1 !s110 1632430738
+!i10b 1
+!s100 hWA8GfNkXGb?bRXKZSBo<1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlbGDfCO@;T[gh?cKkag<O3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1632430484
+Z5 8Lab1.vo
+Z6 FLab1.vo
+!i122 0
+L0 306 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1632430738.000000
+Z9 !s107 Lab1.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Lab1.vo|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+.
+Z13 tCvgOpt 0
+vparity_conventional
+R1
+!i10b 1
+!s100 UMTC^@fGdM^P@FH1XVc7[2
+R2
+Im49KJVTl?TiGB0XU6V>?22
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 273
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vparity_conventional_tb
+!s110 1632431196
+!i10b 1
+!s100 PU;YhLMP6R`?TS:WZSoOa1
+R2
+I7D_aP2H^agjg7<H^5i8Dc2
+R3
+R0
+w1632431055
+8/home/caa746/engr-ece/CME433/Lab1/simulation/modelsim/parity_conventional_tb.v
+F/home/caa746/engr-ece/CME433/Lab1/simulation/modelsim/parity_conventional_tb.v
+!i122 3
+L0 3 16
+R7
+r1
+!s85 0
+31
+!s108 1632431196.000000
+!s107 /home/caa746/engr-ece/CME433/Lab1/simulation/modelsim/parity_conventional_tb.v|
+!s90 -reportprogress|300|-work|work|/home/caa746/engr-ece/CME433/Lab1/simulation/modelsim/parity_conventional_tb.v|
+!i113 1
+o-work work
+R13

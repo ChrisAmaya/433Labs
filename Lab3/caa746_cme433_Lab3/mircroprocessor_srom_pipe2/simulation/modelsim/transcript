@@ -1,0 +1,399 @@
+# Loading project microprocessor_tb
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project microprocessor
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.microprocessor_tb -L altera_mf_ver -L altera_ver -L cycloneive_ver
+# vsim work.microprocessor_tb -L altera_mf_ver -L altera_ver -L cycloneive_ver 
+# Start time: 17:38:05 on Oct 23,2021
+# Loading work.microprocessor_tb
+# Loading work.microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reg_enables'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'read_jump'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'read_conditional_jump'.
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/microprocessor_tb/uut/clk \
+sim:/microprocessor_tb/uut/reset \
+sim:/microprocessor_tb/uut/i_pins \
+sim:/microprocessor_tb/uut/zero_flag \
+sim:/microprocessor_tb/uut/pm_address \
+sim:/microprocessor_tb/uut/pm_data \
+sim:/microprocessor_tb/uut/ir \
+sim:/microprocessor_tb/uut/pc
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v(23)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe2/simulation/modelsim/microprocessor_tb.v line 23
+quit -sim
+# End time: 17:40:51 on Oct 23,2021, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 28
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project microprocessor
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb 
+# Start time: 17:41:30 on Oct 23,2021
+# Loading work.microprocessor_tb
+# Loading work.microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reg_enables'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_PS'.
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/microprocessor_tb/uut/clk \
+sim:/microprocessor_tb/uut/reset \
+sim:/microprocessor_tb/uut/i_pins \
+sim:/microprocessor_tb/uut/zero_flag \
+sim:/microprocessor_tb/uut/pm_address \
+sim:/microprocessor_tb/uut/pm_data \
+sim:/microprocessor_tb/uut/ir \
+sim:/microprocessor_tb/uut/pc
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v(23)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim/microprocessor_tb.v line 23
+quit -sim
+# End time: 17:43:10 on Oct 23,2021, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 25
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project microprocessor
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb 
+# Start time: 17:43:43 on Oct 23,2021
+# Loading work.microprocessor_tb
+# Loading work.microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reg_enables'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'read_jump'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'read_conditional_jump'.
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/microprocessor_tb/uut/clk \
+sim:/microprocessor_tb/uut/reset \
+sim:/microprocessor_tb/uut/i_pins \
+sim:/microprocessor_tb/uut/zero_flag \
+sim:/microprocessor_tb/uut/pm_address \
+sim:/microprocessor_tb/uut/pm_data \
+sim:/microprocessor_tb/uut/ir \
+sim:/microprocessor_tb/uut/pc
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v(23)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v line 23
+quit -sim
+# End time: 17:49:58 on Oct 23,2021, Elapsed time: 0:06:15
+# Errors: 0, Warnings: 27
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project microprocessor
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb 
+# Start time: 17:56:01 on Oct 23,2021
+# Loading work.microprocessor_tb
+# Loading work.microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 25, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reg_enables'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_P'.
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'show_hold_on'.
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/microprocessor_tb/uut/o_reg \
+sim:/microprocessor_tb/uut/clk \
+sim:/microprocessor_tb/uut/reset \
+sim:/microprocessor_tb/uut/i_pins \
+sim:/microprocessor_tb/uut/zero_flag \
+sim:/microprocessor_tb/uut/pm_address \
+sim:/microprocessor_tb/uut/pm_data \
+sim:/microprocessor_tb/uut/reg_enables \
+sim:/microprocessor_tb/uut/from_CU \
+sim:/microprocessor_tb/uut/x0 \
+sim:/microprocessor_tb/uut/x1 \
+sim:/microprocessor_tb/uut/y0 \
+sim:/microprocessor_tb/uut/y1 \
+sim:/microprocessor_tb/uut/m \
+sim:/microprocessor_tb/uut/r \
+sim:/microprocessor_tb/uut/i \
+sim:/microprocessor_tb/uut/ir \
+sim:/microprocessor_tb/uut/from_ID \
+sim:/microprocessor_tb/uut/NOPC8 \
+sim:/microprocessor_tb/uut/NOPCF \
+sim:/microprocessor_tb/uut/NOPD8 \
+sim:/microprocessor_tb/uut/NOPDF \
+sim:/microprocessor_tb/uut/pc \
+sim:/microprocessor_tb/uut/from_P \
+sim:/microprocessor_tb/uut/show_hold_on
+run -all
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 59500 ns ###############
+#   Active process: /microprocessor_tb/uut/\show_hold_on~output /#ASSIGN#6537 @ sub-iteration 0
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:1959
+#   Active process: /microprocessor_tb/uut/\show_hold_on~output /#ASSIGN#6536 @ sub-iteration 0
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:1959
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|hold /#IMPLICIT-WIRE(cout_tmp)#4269 @ sub-iteration 0
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:6148
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|hold /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 0
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:6148
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|always3~0 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 1
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:7483
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|hold_count[29]~44 /#IMPLICIT-WIRE(cout_tmp)#4269 @ sub-iteration 1
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:6165
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|hold_count[29]~44 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 1
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:6165
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|hold_out~0 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:7952
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~0 /#IMPLICIT-WIRE(cout_tmp)#4269 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:7500
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~3 /#IMPLICIT-WIRE(cout_tmp)#4269 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2980
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~3 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2980
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~1 /#IMPLICIT-WIRE(cout_tmp)#4269 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2767
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~1 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2767
+#   Active process: /microprocessor_tb/uut/\inst_decoder|ir~6 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2591
+#   Active process: /microprocessor_tb/uut/\prog_sequencer|always1~0 /#IMPLICIT-WIRE(combout_tmp)#4268 @ sub-iteration 2
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:2042
+#   Active process: /microprocessor_tb/uut/\show_hold_on~output /#ASSIGN#6537 @ sub-iteration 3
+#     Source: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim/microprocessor.vo:1959
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 59500 ns.
+quit -sim
+# End time: 18:25:13 on Oct 23,2021, Elapsed time: 0:29:12
+# Errors: 1, Warnings: 26
+# reading /opt/intelFPGA/20.1.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project microprocessor
+# Compile of cache.vo was successful.
+# Compile of cache_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb 
+# Start time: 18:25:48 on Oct 23,2021
+# Loading work.cache_tb
+# Loading work.cache
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+add wave -position insertpoint  \
+sim:/cache_tb/clk \
+sim:/cache_tb/data \
+sim:/cache_tb/rdoffset \
+sim:/cache_tb/wroffset \
+sim:/cache_tb/wren \
+sim:/cache_tb/q
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /cache_tb
+# Break in Module cache_tb at /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v line 26
+quit -sim
+# End time: 18:28:16 on Oct 23,2021, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 5
+# Compile of cache.vo was successful.
+# Compile of cache_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb 
+# Start time: 18:28:38 on Oct 23,2021
+# Loading work.cache_tb
+# Loading work.cache
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'c'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /cache_tb/c File: /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v(16): [TFMPC] - Missing connection for port 'read_q_tmp'.
+add wave -position insertpoint  \
+sim:/cache_tb/c/clk \
+sim:/cache_tb/c/data \
+sim:/cache_tb/c/rdoffset \
+sim:/cache_tb/c/wroffset \
+sim:/cache_tb/c/wren \
+sim:/cache_tb/c/q \
+sim:/cache_tb/c/read_q_tmp
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /cache_tb
+# Break in Module cache_tb at /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v line 26
+quit -sim
+# End time: 18:29:43 on Oct 23,2021, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 4
+# Compile of cache.vo was successful.
+# Compile of cache_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb
+# vsim -L altera_mf_ver -L altera_ver -L cycloneive_ver work.cache_tb 
+# Start time: 18:30:09 on Oct 23,2021
+# Loading work.cache_tb
+# Loading work.cache
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'c'.  Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /cache_tb/c File: /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v(16): [TFMPC] - Missing connection for port 'read_q_tmp'.
+add wave -position insertpoint  \
+sim:/cache_tb/c/clk \
+sim:/cache_tb/c/data \
+sim:/cache_tb/c/rdoffset \
+sim:/cache_tb/c/wroffset \
+sim:/cache_tb/c/wren \
+sim:/cache_tb/c/q \
+sim:/cache_tb/c/read_q_tmp
+run -all
+# ** Note: $stop    : /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /cache_tb
+# Break in Module cache_tb at /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v line 26

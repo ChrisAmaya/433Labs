@@ -1,0 +1,162 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/caa746/engr-ece/CME433/Lab2/RippleCarryAdder
+T_opt
+!s110 1633656710
+VKGaHDklTaoS;YUUCKFP^^3
+04 10 4 work tbench_top fast 0
+=1-000ae431a4f1-615f9f86-68783-1d5b2
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;2019.2;69
+R0
+vdut_top
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1633656711
+!i10b 1
+!s100 hjM_Sj=EFBQ;CHo`Y0V_j1
+!s11b eHndHd[0NLJdR4gjd8gal3
+IUfmVd]caY<k=?JO@`@^^H1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1633655303
+8dut/dut_top.sv
+Fdut/dut_top.sv
+L0 4
+Z5 OE;L;2019.2;69
+r1
+!s85 0
+31
+Z6 !s108 1633656711.000000
+!s107 verification/tbench_top.sv|verification/testbench.sv|verification/interface.sv|dut/dut_top.sv|dut/rippleCarryAdder.v|
+Z7 !s90 -f|scripts/compile_all.f|
+!i113 0
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfulladder
+R3
+!i10b 1
+!s100 AUSdc=gAmafI[oHJo3k>c3
+!s11b iLUc[PZ^k1g[z=>=a6M@Q0
+IaA]DI4MiK4PK=8XaZLj1:3
+R4
+R0
+Z9 w1633656380
+Z10 8dut/rippleCarryAdder.v
+Z11 Fdut/rippleCarryAdder.v
+L0 92
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 verification/tbench_top.sv|verification/testbench.sv|verification/interface.sv|dut/dut_top.sv|dut/rippleCarryAdder.v|
+R7
+!i113 0
+R8
+R1
+Yintf
+R2
+R3
+!i10b 1
+!s100 e^K3`>aCQoTALOdRHQOHH2
+!s11b 0[C=O[>CZQZ=8APGBWaQb0
+I:zXCVMGXAo6aWR5g_cemG1
+R4
+S1
+R0
+w1633589026
+8verification/interface.sv
+Fverification/interface.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R1
+vrippleCarryAdder
+R3
+!i10b 1
+!s100 60QTkaoB3=EaO2LA1BCeX2
+!s11b fEi:VVV>C@g?:YO@ASA_>1
+I;Mfo`9m_h_972_d^`b^5j0
+R4
+R0
+R9
+R10
+R11
+L0 66
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R1
+nripple@carry@adder
+vtbench_top
+R2
+R3
+!i10b 1
+!s100 l?]cG`Ea[za`RLaYA:6LJ0
+!s11b >K?_IOnR;fH^0A65b5]gi0
+Id1QN2V5Gfod04c=NXAcQ[2
+R4
+S1
+R0
+w1633643626
+8verification/tbench_top.sv
+Fverification/tbench_top.sv
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R1
+vtestbench
+R2
+R3
+!i10b 1
+!s100 E8KJD^N=D1j4C6]FzkdEU0
+!s11b eG6;c<UJMV9=c3VfhSk`g2
+I[;B2n0mUMCQHALlL_EAOC3
+R4
+S1
+R0
+w1633656691
+8verification/testbench.sv
+Fverification/testbench.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R1

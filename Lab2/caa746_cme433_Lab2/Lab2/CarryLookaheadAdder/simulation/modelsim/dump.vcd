@@ -1,0 +1,807 @@
+$date
+	Thu Oct  7 20:58:12 2021
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tbench_top $end
+$var parameter 32 ! bitsize $end
+$var reg 1 " clk $end
+
+$scope module test $end
+$var parameter 32 # bitsizeTB $end
+$var reg 32 $ failedcases [31:0] $end
+$var reg 32 % successCases [31:0] $end
+$var reg 32 & totalCases [31:0] $end
+$var reg 32 ' delayed_output [31:0] $end
+$upscope $end
+
+$scope module dut $end
+$var parameter 32 ( bitsizeDUTtop $end
+
+$scope module dut $end
+$var parameter 32 ) bitsizeRCA $end
+$var wire 1 * a [31] $end
+$var wire 1 + a [30] $end
+$var wire 1 , a [29] $end
+$var wire 1 - a [28] $end
+$var wire 1 . a [27] $end
+$var wire 1 / a [26] $end
+$var wire 1 0 a [25] $end
+$var wire 1 1 a [24] $end
+$var wire 1 2 a [23] $end
+$var wire 1 3 a [22] $end
+$var wire 1 4 a [21] $end
+$var wire 1 5 a [20] $end
+$var wire 1 6 a [19] $end
+$var wire 1 7 a [18] $end
+$var wire 1 8 a [17] $end
+$var wire 1 9 a [16] $end
+$var wire 1 : a [15] $end
+$var wire 1 ; a [14] $end
+$var wire 1 < a [13] $end
+$var wire 1 = a [12] $end
+$var wire 1 > a [11] $end
+$var wire 1 ? a [10] $end
+$var wire 1 @ a [9] $end
+$var wire 1 A a [8] $end
+$var wire 1 B a [7] $end
+$var wire 1 C a [6] $end
+$var wire 1 D a [5] $end
+$var wire 1 E a [4] $end
+$var wire 1 F a [3] $end
+$var wire 1 G a [2] $end
+$var wire 1 H a [1] $end
+$var wire 1 I a [0] $end
+$var wire 1 J b [31] $end
+$var wire 1 K b [30] $end
+$var wire 1 L b [29] $end
+$var wire 1 M b [28] $end
+$var wire 1 N b [27] $end
+$var wire 1 O b [26] $end
+$var wire 1 P b [25] $end
+$var wire 1 Q b [24] $end
+$var wire 1 R b [23] $end
+$var wire 1 S b [22] $end
+$var wire 1 T b [21] $end
+$var wire 1 U b [20] $end
+$var wire 1 V b [19] $end
+$var wire 1 W b [18] $end
+$var wire 1 X b [17] $end
+$var wire 1 Y b [16] $end
+$var wire 1 Z b [15] $end
+$var wire 1 [ b [14] $end
+$var wire 1 \ b [13] $end
+$var wire 1 ] b [12] $end
+$var wire 1 ^ b [11] $end
+$var wire 1 _ b [10] $end
+$var wire 1 ` b [9] $end
+$var wire 1 a b [8] $end
+$var wire 1 b b [7] $end
+$var wire 1 c b [6] $end
+$var wire 1 d b [5] $end
+$var wire 1 e b [4] $end
+$var wire 1 f b [3] $end
+$var wire 1 g b [2] $end
+$var wire 1 h b [1] $end
+$var wire 1 i b [0] $end
+$var wire 1 j s [32] $end
+$var wire 1 k s [31] $end
+$var wire 1 l s [30] $end
+$var wire 1 m s [29] $end
+$var wire 1 n s [28] $end
+$var wire 1 o s [27] $end
+$var wire 1 p s [26] $end
+$var wire 1 q s [25] $end
+$var wire 1 r s [24] $end
+$var wire 1 s s [23] $end
+$var wire 1 t s [22] $end
+$var wire 1 u s [21] $end
+$var wire 1 v s [20] $end
+$var wire 1 w s [19] $end
+$var wire 1 x s [18] $end
+$var wire 1 y s [17] $end
+$var wire 1 z s [16] $end
+$var wire 1 { s [15] $end
+$var wire 1 | s [14] $end
+$var wire 1 } s [13] $end
+$var wire 1 ~ s [12] $end
+$var wire 1 !! s [11] $end
+$var wire 1 "! s [10] $end
+$var wire 1 #! s [9] $end
+$var wire 1 $! s [8] $end
+$var wire 1 %! s [7] $end
+$var wire 1 &! s [6] $end
+$var wire 1 '! s [5] $end
+$var wire 1 (! s [4] $end
+$var wire 1 )! s [3] $end
+$var wire 1 *! s [2] $end
+$var wire 1 +! s [1] $end
+$var wire 1 ,! s [0] $end
+$var wire 1 -! cin $end
+$var wire 1 .! cout $end
+$var wire 1 /! G [31] $end
+$var wire 1 0! G [30] $end
+$var wire 1 1! G [29] $end
+$var wire 1 2! G [28] $end
+$var wire 1 3! G [27] $end
+$var wire 1 4! G [26] $end
+$var wire 1 5! G [25] $end
+$var wire 1 6! G [24] $end
+$var wire 1 7! G [23] $end
+$var wire 1 8! G [22] $end
+$var wire 1 9! G [21] $end
+$var wire 1 :! G [20] $end
+$var wire 1 ;! G [19] $end
+$var wire 1 <! G [18] $end
+$var wire 1 =! G [17] $end
+$var wire 1 >! G [16] $end
+$var wire 1 ?! G [15] $end
+$var wire 1 @! G [14] $end
+$var wire 1 A! G [13] $end
+$var wire 1 B! G [12] $end
+$var wire 1 C! G [11] $end
+$var wire 1 D! G [10] $end
+$var wire 1 E! G [9] $end
+$var wire 1 F! G [8] $end
+$var wire 1 G! G [7] $end
+$var wire 1 H! G [6] $end
+$var wire 1 I! G [5] $end
+$var wire 1 J! G [4] $end
+$var wire 1 K! G [3] $end
+$var wire 1 L! G [2] $end
+$var wire 1 M! G [1] $end
+$var wire 1 N! G [0] $end
+$var wire 1 O! P [31] $end
+$var wire 1 P! P [30] $end
+$var wire 1 Q! P [29] $end
+$var wire 1 R! P [28] $end
+$var wire 1 S! P [27] $end
+$var wire 1 T! P [26] $end
+$var wire 1 U! P [25] $end
+$var wire 1 V! P [24] $end
+$var wire 1 W! P [23] $end
+$var wire 1 X! P [22] $end
+$var wire 1 Y! P [21] $end
+$var wire 1 Z! P [20] $end
+$var wire 1 [! P [19] $end
+$var wire 1 \! P [18] $end
+$var wire 1 ]! P [17] $end
+$var wire 1 ^! P [16] $end
+$var wire 1 _! P [15] $end
+$var wire 1 `! P [14] $end
+$var wire 1 a! P [13] $end
+$var wire 1 b! P [12] $end
+$var wire 1 c! P [11] $end
+$var wire 1 d! P [10] $end
+$var wire 1 e! P [9] $end
+$var wire 1 f! P [8] $end
+$var wire 1 g! P [7] $end
+$var wire 1 h! P [6] $end
+$var wire 1 i! P [5] $end
+$var wire 1 j! P [4] $end
+$var wire 1 k! P [3] $end
+$var wire 1 l! P [2] $end
+$var wire 1 m! P [1] $end
+$var wire 1 n! P [0] $end
+$var wire 1 o! clk $end
+$var wire 1 p! carry [32] $end
+$var wire 1 q! carry [31] $end
+$var wire 1 r! carry [30] $end
+$var wire 1 s! carry [29] $end
+$var wire 1 t! carry [28] $end
+$var wire 1 u! carry [27] $end
+$var wire 1 v! carry [26] $end
+$var wire 1 w! carry [25] $end
+$var wire 1 x! carry [24] $end
+$var wire 1 y! carry [23] $end
+$var wire 1 z! carry [22] $end
+$var wire 1 {! carry [21] $end
+$var wire 1 |! carry [20] $end
+$var wire 1 }! carry [19] $end
+$var wire 1 ~! carry [18] $end
+$var wire 1 !" carry [17] $end
+$var wire 1 "" carry [16] $end
+$var wire 1 #" carry [15] $end
+$var wire 1 $" carry [14] $end
+$var wire 1 %" carry [13] $end
+$var wire 1 &" carry [12] $end
+$var wire 1 '" carry [11] $end
+$var wire 1 (" carry [10] $end
+$var wire 1 )" carry [9] $end
+$var wire 1 *" carry [8] $end
+$var wire 1 +" carry [7] $end
+$var wire 1 ," carry [6] $end
+$var wire 1 -" carry [5] $end
+$var wire 1 ." carry [4] $end
+$var wire 1 /" carry [3] $end
+$var wire 1 0" carry [2] $end
+$var wire 1 1" carry [1] $end
+$var wire 1 2" carry [0] $end
+$var wire 1 3" sum [32] $end
+$var wire 1 4" sum [31] $end
+$var wire 1 5" sum [30] $end
+$var wire 1 6" sum [29] $end
+$var wire 1 7" sum [28] $end
+$var wire 1 8" sum [27] $end
+$var wire 1 9" sum [26] $end
+$var wire 1 :" sum [25] $end
+$var wire 1 ;" sum [24] $end
+$var wire 1 <" sum [23] $end
+$var wire 1 =" sum [22] $end
+$var wire 1 >" sum [21] $end
+$var wire 1 ?" sum [20] $end
+$var wire 1 @" sum [19] $end
+$var wire 1 A" sum [18] $end
+$var wire 1 B" sum [17] $end
+$var wire 1 C" sum [16] $end
+$var wire 1 D" sum [15] $end
+$var wire 1 E" sum [14] $end
+$var wire 1 F" sum [13] $end
+$var wire 1 G" sum [12] $end
+$var wire 1 H" sum [11] $end
+$var wire 1 I" sum [10] $end
+$var wire 1 J" sum [9] $end
+$var wire 1 K" sum [8] $end
+$var wire 1 L" sum [7] $end
+$var wire 1 M" sum [6] $end
+$var wire 1 N" sum [5] $end
+$var wire 1 O" sum [4] $end
+$var wire 1 P" sum [3] $end
+$var wire 1 Q" sum [2] $end
+$var wire 1 R" sum [1] $end
+$var wire 1 S" sum [0] $end
+
+$scope begin CLA2[31] $end
+$var parameter 32 T" j $end
+$upscope $end
+
+$scope begin CLA2[30] $end
+$var parameter 32 U" j $end
+$upscope $end
+
+$scope begin CLA2[29] $end
+$var parameter 32 V" j $end
+$upscope $end
+
+$scope begin CLA2[28] $end
+$var parameter 32 W" j $end
+$upscope $end
+
+$scope begin CLA2[27] $end
+$var parameter 32 X" j $end
+$upscope $end
+
+$scope begin CLA2[26] $end
+$var parameter 32 Y" j $end
+$upscope $end
+
+$scope begin CLA2[25] $end
+$var parameter 32 Z" j $end
+$upscope $end
+
+$scope begin CLA2[24] $end
+$var parameter 32 [" j $end
+$upscope $end
+
+$scope begin CLA2[23] $end
+$var parameter 32 \" j $end
+$upscope $end
+
+$scope begin CLA2[22] $end
+$var parameter 32 ]" j $end
+$upscope $end
+
+$scope begin CLA2[21] $end
+$var parameter 32 ^" j $end
+$upscope $end
+
+$scope begin CLA2[20] $end
+$var parameter 32 _" j $end
+$upscope $end
+
+$scope begin CLA2[19] $end
+$var parameter 32 `" j $end
+$upscope $end
+
+$scope begin CLA2[18] $end
+$var parameter 32 a" j $end
+$upscope $end
+
+$scope begin CLA2[17] $end
+$var parameter 32 b" j $end
+$upscope $end
+
+$scope begin CLA2[16] $end
+$var parameter 32 c" j $end
+$upscope $end
+
+$scope begin CLA2[15] $end
+$var parameter 32 d" j $end
+$upscope $end
+
+$scope begin CLA2[14] $end
+$var parameter 32 e" j $end
+$upscope $end
+
+$scope begin CLA2[13] $end
+$var parameter 32 f" j $end
+$upscope $end
+
+$scope begin CLA2[12] $end
+$var parameter 32 g" j $end
+$upscope $end
+
+$scope begin CLA2[11] $end
+$var parameter 32 h" j $end
+$upscope $end
+
+$scope begin CLA2[10] $end
+$var parameter 32 i" j $end
+$upscope $end
+
+$scope begin CLA2[9] $end
+$var parameter 32 j" j $end
+$upscope $end
+
+$scope begin CLA2[8] $end
+$var parameter 32 k" j $end
+$upscope $end
+
+$scope begin CLA2[7] $end
+$var parameter 32 l" j $end
+$upscope $end
+
+$scope begin CLA2[6] $end
+$var parameter 32 m" j $end
+$upscope $end
+
+$scope begin CLA2[5] $end
+$var parameter 32 n" j $end
+$upscope $end
+
+$scope begin CLA2[4] $end
+$var parameter 32 o" j $end
+$upscope $end
+
+$scope begin CLA2[3] $end
+$var parameter 32 p" j $end
+$upscope $end
+
+$scope begin CLA2[2] $end
+$var parameter 32 q" j $end
+$upscope $end
+
+$scope begin CLA2[1] $end
+$var parameter 32 r" j $end
+$upscope $end
+
+$scope begin CLA2[0] $end
+$var parameter 32 s" j $end
+$upscope $end
+
+$scope begin CLA1[31] $end
+$var parameter 32 t" i $end
+
+$scope module fa $end
+$var wire 1 * a $end
+$var wire 1 J b $end
+$var wire 1 4" s $end
+$var wire 1 q! cin $end
+$var wire 1 u" cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[30] $end
+$var parameter 32 v" i $end
+
+$scope module fa $end
+$var wire 1 + a $end
+$var wire 1 K b $end
+$var wire 1 5" s $end
+$var wire 1 r! cin $end
+$var wire 1 w" cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[29] $end
+$var parameter 32 x" i $end
+
+$scope module fa $end
+$var wire 1 , a $end
+$var wire 1 L b $end
+$var wire 1 6" s $end
+$var wire 1 s! cin $end
+$var wire 1 y" cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[28] $end
+$var parameter 32 z" i $end
+
+$scope module fa $end
+$var wire 1 - a $end
+$var wire 1 M b $end
+$var wire 1 7" s $end
+$var wire 1 t! cin $end
+$var wire 1 {" cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[27] $end
+$var parameter 32 |" i $end
+
+$scope module fa $end
+$var wire 1 . a $end
+$var wire 1 N b $end
+$var wire 1 8" s $end
+$var wire 1 u! cin $end
+$var wire 1 }" cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[26] $end
+$var parameter 32 ~" i $end
+
+$scope module fa $end
+$var wire 1 / a $end
+$var wire 1 O b $end
+$var wire 1 9" s $end
+$var wire 1 v! cin $end
+$var wire 1 !# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[25] $end
+$var parameter 32 "# i $end
+
+$scope module fa $end
+$var wire 1 0 a $end
+$var wire 1 P b $end
+$var wire 1 :" s $end
+$var wire 1 w! cin $end
+$var wire 1 ## cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[24] $end
+$var parameter 32 $# i $end
+
+$scope module fa $end
+$var wire 1 1 a $end
+$var wire 1 Q b $end
+$var wire 1 ;" s $end
+$var wire 1 x! cin $end
+$var wire 1 %# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[23] $end
+$var parameter 32 &# i $end
+
+$scope module fa $end
+$var wire 1 2 a $end
+$var wire 1 R b $end
+$var wire 1 <" s $end
+$var wire 1 y! cin $end
+$var wire 1 '# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[22] $end
+$var parameter 32 (# i $end
+
+$scope module fa $end
+$var wire 1 3 a $end
+$var wire 1 S b $end
+$var wire 1 =" s $end
+$var wire 1 z! cin $end
+$var wire 1 )# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[21] $end
+$var parameter 32 *# i $end
+
+$scope module fa $end
+$var wire 1 4 a $end
+$var wire 1 T b $end
+$var wire 1 >" s $end
+$var wire 1 {! cin $end
+$var wire 1 +# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[20] $end
+$var parameter 32 ,# i $end
+
+$scope module fa $end
+$var wire 1 5 a $end
+$var wire 1 U b $end
+$var wire 1 ?" s $end
+$var wire 1 |! cin $end
+$var wire 1 -# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[19] $end
+$var parameter 32 .# i $end
+
+$scope module fa $end
+$var wire 1 6 a $end
+$var wire 1 V b $end
+$var wire 1 @" s $end
+$var wire 1 }! cin $end
+$var wire 1 /# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[18] $end
+$var parameter 32 0# i $end
+
+$scope module fa $end
+$var wire 1 7 a $end
+$var wire 1 W b $end
+$var wire 1 A" s $end
+$var wire 1 ~! cin $end
+$var wire 1 1# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[17] $end
+$var parameter 32 2# i $end
+
+$scope module fa $end
+$var wire 1 8 a $end
+$var wire 1 X b $end
+$var wire 1 B" s $end
+$var wire 1 !" cin $end
+$var wire 1 3# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[16] $end
+$var parameter 32 4# i $end
+
+$scope module fa $end
+$var wire 1 9 a $end
+$var wire 1 Y b $end
+$var wire 1 C" s $end
+$var wire 1 "" cin $end
+$var wire 1 5# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[15] $end
+$var parameter 32 6# i $end
+
+$scope module fa $end
+$var wire 1 : a $end
+$var wire 1 Z b $end
+$var wire 1 D" s $end
+$var wire 1 #" cin $end
+$var wire 1 7# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[14] $end
+$var parameter 32 8# i $end
+
+$scope module fa $end
+$var wire 1 ; a $end
+$var wire 1 [ b $end
+$var wire 1 E" s $end
+$var wire 1 $" cin $end
+$var wire 1 9# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[13] $end
+$var parameter 32 :# i $end
+
+$scope module fa $end
+$var wire 1 < a $end
+$var wire 1 \ b $end
+$var wire 1 F" s $end
+$var wire 1 %" cin $end
+$var wire 1 ;# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[12] $end
+$var parameter 32 <# i $end
+
+$scope module fa $end
+$var wire 1 = a $end
+$var wire 1 ] b $end
+$var wire 1 G" s $end
+$var wire 1 &" cin $end
+$var wire 1 =# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[11] $end
+$var parameter 32 ># i $end
+
+$scope module fa $end
+$var wire 1 > a $end
+$var wire 1 ^ b $end
+$var wire 1 H" s $end
+$var wire 1 '" cin $end
+$var wire 1 ?# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[10] $end
+$var parameter 32 @# i $end
+
+$scope module fa $end
+$var wire 1 ? a $end
+$var wire 1 _ b $end
+$var wire 1 I" s $end
+$var wire 1 (" cin $end
+$var wire 1 A# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[9] $end
+$var parameter 32 B# i $end
+
+$scope module fa $end
+$var wire 1 @ a $end
+$var wire 1 ` b $end
+$var wire 1 J" s $end
+$var wire 1 )" cin $end
+$var wire 1 C# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[8] $end
+$var parameter 32 D# i $end
+
+$scope module fa $end
+$var wire 1 A a $end
+$var wire 1 a b $end
+$var wire 1 K" s $end
+$var wire 1 *" cin $end
+$var wire 1 E# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[7] $end
+$var parameter 32 F# i $end
+
+$scope module fa $end
+$var wire 1 B a $end
+$var wire 1 b b $end
+$var wire 1 L" s $end
+$var wire 1 +" cin $end
+$var wire 1 G# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[6] $end
+$var parameter 32 H# i $end
+
+$scope module fa $end
+$var wire 1 C a $end
+$var wire 1 c b $end
+$var wire 1 M" s $end
+$var wire 1 ," cin $end
+$var wire 1 I# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[5] $end
+$var parameter 32 J# i $end
+
+$scope module fa $end
+$var wire 1 D a $end
+$var wire 1 d b $end
+$var wire 1 N" s $end
+$var wire 1 -" cin $end
+$var wire 1 K# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[4] $end
+$var parameter 32 L# i $end
+
+$scope module fa $end
+$var wire 1 E a $end
+$var wire 1 e b $end
+$var wire 1 O" s $end
+$var wire 1 ." cin $end
+$var wire 1 M# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[3] $end
+$var parameter 32 N# i $end
+
+$scope module fa $end
+$var wire 1 F a $end
+$var wire 1 f b $end
+$var wire 1 P" s $end
+$var wire 1 /" cin $end
+$var wire 1 O# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[2] $end
+$var parameter 32 P# i $end
+
+$scope module fa $end
+$var wire 1 G a $end
+$var wire 1 g b $end
+$var wire 1 Q" s $end
+$var wire 1 0" cin $end
+$var wire 1 Q# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[1] $end
+$var parameter 32 R# i $end
+
+$scope module fa $end
+$var wire 1 H a $end
+$var wire 1 h b $end
+$var wire 1 R" s $end
+$var wire 1 1" cin $end
+$var wire 1 S# cout $end
+$upscope $end
+$upscope $end
+
+$scope begin CLA1[0] $end
+$var parameter 32 T# i $end
+
+$scope module fa $end
+$var wire 1 I a $end
+$var wire 1 i b $end
+$var wire 1 S" s $end
+$var wire 1 2" cin $end
+$var wire 1 U# cout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+b0 $
+b0 %
+b0 &
+bx '
+b100000 !
+b100000 #
+b100000 (
+b100000 )
+b0 T#
+b1 R#
+b10 P#
+b11 N#
+b100 L#
+b101 J#
+b110 H#
+b111 F#
+b1000 D#
+b1001 B#
+b1010 @#
+b1011 >#
+b1100 <#
+b1101 :#
+b1110 8#
+b1111 6#
+b10000 4#
+b10001 2#
+b10010 0#
+b10011 .

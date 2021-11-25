@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at program_sequencer.v(72): always construct contains both blocking and non-blocking assignments File: /home/caa746/engr-ece/CME433/Lab3/suspend_mirco/program_sequencer.v Line: 72

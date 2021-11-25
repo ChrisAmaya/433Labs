@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_srom_pipe1/simulation/modelsim
+vhard_block
+Z0 !s110 1635032619
+!i10b 1
+!s100 O;VCEFLLjo2OVX6995mfI3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iol?4@T5KQD`9Wfgz1DH=o3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim
+Z4 w1634938199
+Z5 8/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor.vo
+Z6 F/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor.vo
+!i122 28
+L0 6945 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1635032619.000000
+Z9 !s107 /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vmicroprocessor
+R0
+!i10b 1
+!s100 Hm36nTkaPlX7e<CL[^CDY1
+R1
+IP:4FU:40A2kHfJ26jj]4I2
+R2
+R3
+R4
+R5
+R6
+!i122 28
+L0 32 6912
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmicroprocessor_tb
+!s110 1635032620
+!i10b 1
+!s100 P1C[ei3KKTInhZz;3F9131
+R1
+ICMVTRM@aCTOn4IUM=H1KU2
+R2
+R3
+w1634928431
+8/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v
+F/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v
+!i122 29
+L0 3 48
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/caa746/engr-ece/CME433/Lab3/mircroprocessor_slow_rom/simulation/modelsim/microprocessor_tb.v|
+!i113 1
+R11
+R12

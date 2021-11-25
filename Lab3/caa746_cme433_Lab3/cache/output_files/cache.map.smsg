@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at cache.v(24): always construct contains both blocking and non-blocking assignments File: /home/caa746/engr-ece/CME433/Lab3/cache/cache.v Line: 24

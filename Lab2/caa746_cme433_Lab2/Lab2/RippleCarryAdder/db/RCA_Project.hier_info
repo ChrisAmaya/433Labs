@@ -1,0 +1,551 @@
+|rippleCarryAdder
+a[0] => a_reg[0].DATAIN
+a[1] => a_reg[1].DATAIN
+a[2] => a_reg[2].DATAIN
+a[3] => a_reg[3].DATAIN
+a[4] => a_reg[4].DATAIN
+a[5] => a_reg[5].DATAIN
+a[6] => a_reg[6].DATAIN
+a[7] => a_reg[7].DATAIN
+a[8] => a_reg[8].DATAIN
+a[9] => a_reg[9].DATAIN
+a[10] => a_reg[10].DATAIN
+a[11] => a_reg[11].DATAIN
+a[12] => a_reg[12].DATAIN
+a[13] => a_reg[13].DATAIN
+a[14] => a_reg[14].DATAIN
+a[15] => a_reg[15].DATAIN
+a[16] => a_reg[16].DATAIN
+a[17] => a_reg[17].DATAIN
+a[18] => a_reg[18].DATAIN
+a[19] => a_reg[19].DATAIN
+a[20] => a_reg[20].DATAIN
+a[21] => a_reg[21].DATAIN
+a[22] => a_reg[22].DATAIN
+a[23] => a_reg[23].DATAIN
+a[24] => a_reg[24].DATAIN
+a[25] => a_reg[25].DATAIN
+a[26] => a_reg[26].DATAIN
+a[27] => a_reg[27].DATAIN
+a[28] => a_reg[28].DATAIN
+a[29] => a_reg[29].DATAIN
+a[30] => a_reg[30].DATAIN
+a[31] => a_reg[31].DATAIN
+b[0] => b_reg[0].DATAIN
+b[1] => b_reg[1].DATAIN
+b[2] => b_reg[2].DATAIN
+b[3] => b_reg[3].DATAIN
+b[4] => b_reg[4].DATAIN
+b[5] => b_reg[5].DATAIN
+b[6] => b_reg[6].DATAIN
+b[7] => b_reg[7].DATAIN
+b[8] => b_reg[8].DATAIN
+b[9] => b_reg[9].DATAIN
+b[10] => b_reg[10].DATAIN
+b[11] => b_reg[11].DATAIN
+b[12] => b_reg[12].DATAIN
+b[13] => b_reg[13].DATAIN
+b[14] => b_reg[14].DATAIN
+b[15] => b_reg[15].DATAIN
+b[16] => b_reg[16].DATAIN
+b[17] => b_reg[17].DATAIN
+b[18] => b_reg[18].DATAIN
+b[19] => b_reg[19].DATAIN
+b[20] => b_reg[20].DATAIN
+b[21] => b_reg[21].DATAIN
+b[22] => b_reg[22].DATAIN
+b[23] => b_reg[23].DATAIN
+b[24] => b_reg[24].DATAIN
+b[25] => b_reg[25].DATAIN
+b[26] => b_reg[26].DATAIN
+b[27] => b_reg[27].DATAIN
+b[28] => b_reg[28].DATAIN
+b[29] => b_reg[29].DATAIN
+b[30] => b_reg[30].DATAIN
+b[31] => b_reg[31].DATAIN
+s[0] <= s[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[14] <= s[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[15] <= s[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[16] <= s[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[17] <= s[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[18] <= s[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[19] <= s[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[20] <= s[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[21] <= s[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[22] <= s[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[23] <= s[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[24] <= s[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[25] <= s[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[26] <= s[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[27] <= s[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[28] <= s[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[29] <= s[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[30] <= s[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+s[31] <= s[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cin => cin_reg.DATAIN
+cout <= cout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => cout~reg0.CLK
+clk => cin_reg.CLK
+clk => s[0]~reg0.CLK
+clk => s[1]~reg0.CLK
+clk => s[2]~reg0.CLK
+clk => s[3]~reg0.CLK
+clk => s[4]~reg0.CLK
+clk => s[5]~reg0.CLK
+clk => s[6]~reg0.CLK
+clk => s[7]~reg0.CLK
+clk => s[8]~reg0.CLK
+clk => s[9]~reg0.CLK
+clk => s[10]~reg0.CLK
+clk => s[11]~reg0.CLK
+clk => s[12]~reg0.CLK
+clk => s[13]~reg0.CLK
+clk => s[14]~reg0.CLK
+clk => s[15]~reg0.CLK
+clk => s[16]~reg0.CLK
+clk => s[17]~reg0.CLK
+clk => s[18]~reg0.CLK
+clk => s[19]~reg0.CLK
+clk => s[20]~reg0.CLK
+clk => s[21]~reg0.CLK
+clk => s[22]~reg0.CLK
+clk => s[23]~reg0.CLK
+clk => s[24]~reg0.CLK
+clk => s[25]~reg0.CLK
+clk => s[26]~reg0.CLK
+clk => s[27]~reg0.CLK
+clk => s[28]~reg0.CLK
+clk => s[29]~reg0.CLK
+clk => s[30]~reg0.CLK
+clk => s[31]~reg0.CLK
+clk => b_reg[0].CLK
+clk => b_reg[1].CLK
+clk => b_reg[2].CLK
+clk => b_reg[3].CLK
+clk => b_reg[4].CLK
+clk => b_reg[5].CLK
+clk => b_reg[6].CLK
+clk => b_reg[7].CLK
+clk => b_reg[8].CLK
+clk => b_reg[9].CLK
+clk => b_reg[10].CLK
+clk => b_reg[11].CLK
+clk => b_reg[12].CLK
+clk => b_reg[13].CLK
+clk => b_reg[14].CLK
+clk => b_reg[15].CLK
+clk => b_reg[16].CLK
+clk => b_reg[17].CLK
+clk => b_reg[18].CLK
+clk => b_reg[19].CLK
+clk => b_reg[20].CLK
+clk => b_reg[21].CLK
+clk => b_reg[22].CLK
+clk => b_reg[23].CLK
+clk => b_reg[24].CLK
+clk => b_reg[25].CLK
+clk => b_reg[26].CLK
+clk => b_reg[27].CLK
+clk => b_reg[28].CLK
+clk => b_reg[29].CLK
+clk => b_reg[30].CLK
+clk => b_reg[31].CLK
+clk => a_reg[0].CLK
+clk => a_reg[1].CLK
+clk => a_reg[2].CLK
+clk => a_reg[3].CLK
+clk => a_reg[4].CLK
+clk => a_reg[5].CLK
+clk => a_reg[6].CLK
+clk => a_reg[7].CLK
+clk => a_reg[8].CLK
+clk => a_reg[9].CLK
+clk => a_reg[10].CLK
+clk => a_reg[11].CLK
+clk => a_reg[12].CLK
+clk => a_reg[13].CLK
+clk => a_reg[14].CLK
+clk => a_reg[15].CLK
+clk => a_reg[16].CLK
+clk => a_reg[17].CLK
+clk => a_reg[18].CLK
+clk => a_reg[19].CLK
+clk => a_reg[20].CLK
+clk => a_reg[21].CLK
+clk => a_reg[22].CLK
+clk => a_reg[23].CLK
+clk => a_reg[24].CLK
+clk => a_reg[25].CLK
+clk => a_reg[26].CLK
+clk => a_reg[27].CLK
+clk => a_reg[28].CLK
+clk => a_reg[29].CLK
+clk => a_reg[30].CLK
+clk => a_reg[31].CLK
+
+
+|rippleCarryAdder|fulladder:RCA[0].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[1].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[2].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[3].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[4].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[5].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[6].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[7].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[8].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[9].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[10].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[11].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[12].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[13].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[14].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[15].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[16].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[17].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[18].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[19].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[20].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[21].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[22].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[23].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[24].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[25].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[26].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[27].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[28].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[29].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[30].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rippleCarryAdder|fulladder:RCA[31].fa
+a => s.IN0
+a => cout.IN0
+b => s.IN1
+b => cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+cin => s.IN1
+cin => cout.IN1
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

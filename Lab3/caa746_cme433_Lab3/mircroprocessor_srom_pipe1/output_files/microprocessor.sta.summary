@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -9.241
+TNS   : -339.171
+
+Type  : Slow 1200mV 85C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -4.811
+TNS   : -34.115
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -78.022
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.456
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -8.465
+TNS   : -308.838
+
+Type  : Slow 1200mV 0C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -4.228
+TNS   : -30.656
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -77.846
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.395
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.452
+TNS   : -155.070
+
+Type  : Fast 1200mV 0C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -1.887
+TNS   : -13.172
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -60.565
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.366
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,11 @@
+module data_pipe(
+	input [7:0] in,
+	output [7:0] out,
+	input clk
+);
+
+	always@(posedge clk)
+		in <= out;
+
+
+endmodule

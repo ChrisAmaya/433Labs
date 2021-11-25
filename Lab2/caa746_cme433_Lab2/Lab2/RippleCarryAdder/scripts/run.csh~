@@ -1,0 +1,4 @@
+i#!/bin/csh
+source /CMC/scripts/mentor.questasim.2019.2.csh
+vlog -f script/compile_all.f
+vsim -c tbench_top -do script/do_all.do

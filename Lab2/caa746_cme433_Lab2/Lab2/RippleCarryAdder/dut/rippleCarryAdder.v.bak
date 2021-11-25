@@ -1,0 +1,31 @@
+`ifndef _RCA_
+`define _RCA_
+
+module rca(input [31:0] a, input [31:0] b, output [31:0] s, input cin, output cout, input clk, input bitsizeN);
+	wire [31:0] carry;
+	assign carry[0] = cin;
+	
+	genvar i;
+	
+	
+	generate
+		for (i = 0; i < 31; i = i + 1) begin : RCA
+			baserca(a[i],b[i],c[i],carry[i],cout,clk);
+		end
+	endgenerate 
+	
+assign cout = carry[31];
+
+endmodule
+
+module baserca(input a, input b, output reg s, input cin, output reg cout, input clk);
+	
+	always@(posedge clk)
+		begin
+			s = (a^b)^cin;
+			cout = ((a^b) & (cin)) | (a & b);
+		end
+
+endmodule
+
+`endif 

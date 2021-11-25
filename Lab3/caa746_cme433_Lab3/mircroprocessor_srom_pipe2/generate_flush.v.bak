@@ -1,0 +1,13 @@
+module generate_flush(
+	input jump,
+	input jump_nz,
+	input dont_jump,
+	output flush
+);
+
+	always@(jump || jump_nz && )
+	
+
+
+endmodule
+

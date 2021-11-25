@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/caa746/engr-ece/CME433/Lab3/suspend_mirco/simulation/modelsim
+vcache
+Z0 !s110 1635035404
+!i10b 1
+!s100 ADNdB5Moei>FeRAMPbnLk3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_219BAbB68cESbABX4h9;2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim
+Z4 w1635035348
+Z5 8/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache.vo
+Z6 F/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache.vo
+!i122 10
+L0 32 8626
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1635035404.000000
+Z9 !s107 /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcache_tb
+!s110 1635035405
+!i10b 1
+!s100 :Z46GPjmSGedCLeTz`EGX1
+R1
+IXK_DW1O35IDbG0hKkg7JX0
+R2
+R3
+w1635025521
+8/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v
+F/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v
+!i122 11
+L0 3 53
+R7
+r1
+!s85 0
+31
+!s108 1635035405.000000
+!s107 /home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/caa746/engr-ece/CME433/Lab3/cache/simulation/modelsim/cache_tb.v|
+!i113 1
+R11
+R12
+vhard_block
+R0
+!i10b 1
+!s100 mB1;Mz`zlIZ:4gEOMGMlM3
+R1
+IZB8V_`U^cDKnWAn_<fFc?0
+R2
+R3
+R4
+R5
+R6
+!i122 10
+L0 8659 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

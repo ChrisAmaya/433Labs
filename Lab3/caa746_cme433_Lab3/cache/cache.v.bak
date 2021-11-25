@@ -1,0 +1,14 @@
+module cache(
+		input clk,
+		input [7:0] data,
+		input [4:0] rdoffset,
+		input [4:0] wroffset,
+		input wren,
+		output reg [7:0] q
+);
+
+
+
+
+endmodule
+

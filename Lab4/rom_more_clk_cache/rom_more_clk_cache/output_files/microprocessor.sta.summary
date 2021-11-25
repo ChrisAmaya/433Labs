@@ -1,0 +1,137 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -8.504
+TNS   : -431.175
+
+Type  : Slow 1200mV 85C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -4.823
+TNS   : -32.192
+
+Type  : Slow 1200mV 85C Model Setup 'program_sequencer:prog_sequencer|hold'
+Slack : -4.445
+TNS   : -27.265
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.265
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.837
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'program_sequencer:prog_sequencer|hold'
+Slack : 1.346
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'program_sequencer:prog_sequencer|hold'
+Slack : -1.536
+TNS   : -9.728
+
+Type  : Slow 1200mV 85C Model Removal 'program_sequencer:prog_sequencer|hold'
+Slack : 0.474
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -212.727
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'program_sequencer:prog_sequencer|hold'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -7.798
+TNS   : -390.290
+
+Type  : Slow 1200mV 0C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -4.262
+TNS   : -28.366
+
+Type  : Slow 1200mV 0C Model Setup 'program_sequencer:prog_sequencer|hold'
+Slack : -4.005
+TNS   : -24.385
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.786
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'program_sequencer:prog_sequencer|hold'
+Slack : 1.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'program_sequencer:prog_sequencer|hold'
+Slack : -1.352
+TNS   : -8.307
+
+Type  : Slow 1200mV 0C Model Removal 'program_sequencer:prog_sequencer|hold'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -210.791
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'program_sequencer:prog_sequencer|hold'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.072
+TNS   : -185.657
+
+Type  : Fast 1200mV 0C Model Setup 'instruction_decoder:inst_decoder|ir[0]'
+Slack : -1.890
+TNS   : -12.054
+
+Type  : Fast 1200mV 0C Model Setup 'program_sequencer:prog_sequencer|hold'
+Slack : -1.802
+TNS   : -9.816
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.009
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'program_sequencer:prog_sequencer|hold'
+Slack : 0.458
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'program_sequencer:prog_sequencer|hold'
+Slack : -0.307
+TNS   : -1.282
+
+Type  : Fast 1200mV 0C Model Removal 'program_sequencer:prog_sequencer|hold'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -127.388
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'instruction_decoder:inst_decoder|ir[0]'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'program_sequencer:prog_sequencer|hold'
+Slack : 0.414
+TNS   : 0.000
+
+------------------------------------------------------------

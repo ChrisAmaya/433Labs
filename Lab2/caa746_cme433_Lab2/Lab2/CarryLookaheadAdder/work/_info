@@ -1,0 +1,162 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder
+T_opt
+!s110 1633658796
+VLPS;f3ck=:e2YzP]1^kVQ2
+04 10 4 work tbench_top fast 0
+=1-000ae431a4f1-615fa7ac-2cf4c-1e5b0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;2019.2;69
+R0
+vcarryLookaheadAdder
+Z2 !s110 1633658797
+!i10b 1
+!s100 efeEf9ij_]7DS2Cnena>V3
+!s11b ELC4DBX?HY=6gZGaMNgd73
+Ig[df8leUek^7bA8W3V1SS2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1633657886
+Z5 8dut/carryLookaheadAdder.v
+Z6 Fdut/carryLookaheadAdder.v
+L0 6
+Z7 OE;L;2019.2;69
+r1
+!s85 0
+31
+Z8 !s108 1633658797.000000
+!s107 verification/tbench_top.sv|verification/testbench.sv|verification/interface.sv|dut/dut_top.sv|dut/carryLookaheadAdder.v|
+Z9 !s90 -f|scripts/compile_all.f|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+ncarry@lookahead@adder
+vdut_top
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 kUT^=OhFAF>f=8AMMiS?Z0
+!s11b 2z1WBI?PY1zjh9V[1ZS3P3
+IY_^@Z`9TFfCfQd=J0?FG43
+R3
+S1
+R0
+w1633652727
+8dut/dut_top.sv
+Fdut/dut_top.sv
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 verification/tbench_top.sv|verification/testbench.sv|verification/interface.sv|dut/dut_top.sv|dut/carryLookaheadAdder.v|
+R9
+!i113 0
+R10
+R1
+vfulladder
+R2
+!i10b 1
+!s100 `3n^h@VdNhoR]gW4MHaD_2
+!s11b iLUc[PZ^k1g[z=>=a6M@Q0
+IZ]4WjfcSb>YJj=UjzCaIQ0
+R3
+R0
+R4
+R5
+R6
+L0 122
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+Yintf
+R11
+R2
+!i10b 1
+!s100 >9P]VI21E[<1@kO:Ef[B@0
+!s11b JNS6=6M^H=jzgGT7@91h12
+I@RGlN[iHYEb<5=jDK?Mf50
+R3
+S1
+R0
+w1633652790
+8verification/interface.sv
+Fverification/interface.sv
+L0 4
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+vtbench_top
+R11
+R2
+!i10b 1
+!s100 0KX[n3d4:L3I[X<JFH0@`1
+!s11b fI?zQaA?IaoEjX?Z??acf1
+I]=L6EF<F^6mF:RkA>V43l1
+R3
+S1
+R0
+w1633658726
+8verification/tbench_top.sv
+Fverification/tbench_top.sv
+L0 10
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1
+vtestbench
+R11
+R2
+!i10b 1
+!s100 fMoINRWTGQFnL6RRm40n_2
+!s11b H?VPUBd8OjjcRCF^EjKcg2
+IYcH;CXem>08c0:GR?Gl0R1
+R3
+S1
+R0
+w1633654283
+8verification/testbench.sv
+Fverification/testbench.sv
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 0
+R10
+R1

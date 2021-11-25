@@ -1,0 +1,36 @@
+|parity_davio
+D[0] => f6_0.IN0
+D[0] => f6_0.IN0
+D[0] => f5_2.IN0
+D[0] => f6_0.IN0
+D[1] => f6_0.IN1
+D[1] => f5_2.IN1
+D[1] => f6_0.IN0
+D[1] => f6_0.IN1
+D[2] => f6_0.IN0
+D[2] => f6_0.IN1
+D[2] => f6_0.IN1
+D[2] => f5_2.IN1
+D[2] => f6_0.IN1
+D[2] => f6_0.IN1
+D[2] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f5_2.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[3] => f6_0.IN1
+D[4] => ~NO_FANOUT~
+D[5] => f6_0.IN1
+D[5] => f6_0.IN1
+D[5] => f6_0.IN1
+D[5] => f6_0.IN1
+D[5] => f6_0.IN1
+D[6] => f5_2.IN1
+D[6] => f6_0.IN1
+F << F.DB_MAX_OUTPUT_PORT_TYPE
+
+

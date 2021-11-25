@@ -1,0 +1,18 @@
+`timescale 1ns/1ps
+
+module parity_conventional_tb();
+
+reg [6:0] D;
+wire F;
+
+initial 
+#150 $stop;
+
+initial 
+D = 7'b0100111;
+
+parity_conventional p_c_1(
+			.D(D),
+			.F(F)
+			);
+endmodule  

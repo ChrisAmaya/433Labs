@@ -1,0 +1,86 @@
+`ifndef _CLA_
+`define _CLA_
+
+module carryLookaheadAdder #(parameter bitsizeRCA = 32)
+   (input [bitsizeRCA-1:0] a, 
+	input [bitsizeRCA-1:0] b, 
+	output [bitsizeRCA:0] s, 
+	input cin, 
+	output cout, 
+	input clk);
+
+//----------------Uncomment to get timing analyzer time----------------------
+
+	reg [bitsizeRCA-1:0] a_reg;
+	reg [bitsizeRCA-1:0] b_reg;
+	wire [bitsizeRCA-1:0] s;
+	reg cin_reg;
+	reg cout;
+	
+	wire [bitsizeRCA:0] carry;
+	wire [bitsizeRCA-1:0] gen,prop,sum;
+
+	initial begin
+		$display("This is where all the regs are initialized to zero");
+		a_reg <= 0;
+		b_reg <= 0;
+		cin_reg <= 0;
+	end
+
+	always @(posedge clk)
+		begin
+			$display("This is where all the regs are given its values %0d", $time);
+			a_reg <= a;
+			b_reg <= b;
+			s <= s_reg;
+			cin_reg <= cin;
+			cout <= cout_reg;
+		end
+	
+	
+	assign carry[0] = cin_reg;
+	
+	genvar i;
+	
+
+	generate
+		for (i = 0; i < bitsizeRCA; i = i + 1) begin : RCA
+			fulladder fa(a_reg[i],b_reg[i],s[i],carry[i],carry[i+1]);
+			gen[i] = a_reg[i] & b_reg[i];
+			prop[i] = a_reg[i] | b_reg[i];
+			carry[i] = gen[i-1]] | (prop[i-1] & carry[i-1]);
+		end
+	endgenerate 
+
+	always@(*)
+		begin
+		$display("this is where cout is assigned %0d", $time);
+		cout_reg = carry[bitsizeRCA];
+		end
+
+
+//--------------Comment out while trying to get the timing analzer time---------------
+/*
+	wire [bitsizeRCA:0] carry;
+	assign carry[0] = cin;
+	
+	genvar i;
+	
+
+	generate
+		for (i = 0; i < bitsizeRCA; i = i + 1) begin : RCA
+			fulladder fa(a[i],b[i],s_reg[i],carry[i],carry[i+1]);
+		end
+	endgenerate 
+
+	assign cout_reg = carry[bitsizeRCA];
+
+endmodule
+*/
+//-------------------full adder 1bit--------------------
+module fulladder(input a, input b, output s, input cin, output cout);
+	assign s = a^b^cin;
+	assign cout = ((a^b)&cin) | (a&b);
+endmodule
+
+`endif 

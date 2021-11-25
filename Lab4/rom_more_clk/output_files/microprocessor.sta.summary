@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -9.112
+TNS   : -338.352
+
+Type  : Slow 1200mV 85C Model Setup 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -5.244
+TNS   : -35.987
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -83.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.441
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -8.418
+TNS   : -311.145
+
+Type  : Slow 1200mV 0C Model Setup 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -4.779
+TNS   : -33.334
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.701
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -83.065
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.422
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -4.269
+TNS   : -151.862
+
+Type  : Fast 1200mV 0C Model Setup 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : -2.383
+TNS   : -16.986
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.016
+TNS   : -0.016
+
+Type  : Fast 1200mV 0C Model Hold 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -63.971
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_t7b1:auto_generated|ram_block1a0~porta_address_reg0'
+Slack : 0.246
+TNS   : 0.000
+
+------------------------------------------------------------

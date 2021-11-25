@@ -1,0 +1,158 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/caa746/engr-ece
+vcarryLookaheadAdder
+Z0 !s110 1633661838
+!i10b 1
+!s100 efeEf9ij_]7DS2Cnena>V3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVXfI]N;Xmj;7LOZGYk41;1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/simulation/modelsim
+Z4 w1633657886
+Z5 8/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/carryLookaheadAdder.v
+Z6 F/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/carryLookaheadAdder.v
+!i122 3
+L0 6 41
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1633661838.000000
+Z9 !s107 /home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/carryLookaheadAdder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/carryLookaheadAdder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+ncarry@lookahead@adder
+vdut_top
+Z13 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 kUT^=OhFAF>f=8AMMiS?Z0
+R1
+I=JDXCk<CLHC`8mV`ik]7?3
+R2
+S1
+R3
+w1633652727
+8/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/dut_top.sv
+F/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/dut_top.sv
+!i122 4
+L0 4 15
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/dut_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/dut/dut_top.sv|
+!i113 1
+Z14 o-work work -sv
+R12
+vfulladder
+R0
+!i10b 1
+!s100 `3n^h@VdNhoR]gW4MHaD_2
+R1
+IU`SZle>O0Nb;z`[jUEXNf2
+R2
+R3
+R4
+R5
+R6
+!i122 3
+L0 122 4
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Yintf
+R13
+R0
+!i10b 1
+!s100 >9P]VI21E[<1@kO:Ef[B@0
+R1
+I8c5czPoAddCZYC]QhRQd@1
+R2
+S1
+R3
+w1633652790
+8/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/interface.sv
+F/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/interface.sv
+!i122 1
+L0 4 0
+R7
+r1
+!s85 0
+31
+R8
+Z15 !s107 /home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/testbench.sv|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/interface.sv|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/tbench_top.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/tbench_top.sv|
+!i113 1
+R14
+R12
+vtbench_top
+R13
+R0
+!i10b 1
+!s100 0KX[n3d4:L3I[X<JFH0@`1
+R1
+Il27P=j1=<Xm^DWCNnDTJn2
+R2
+S1
+R3
+w1633658726
+8/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/tbench_top.sv
+F/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/tbench_top.sv
+!i122 1
+L0 10 19
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R14
+R12
+vtestbench
+R13
+R0
+!i10b 1
+!s100 fMoINRWTGQFnL6RRm40n_2
+R1
+Iz3gYE:d@fYh^iTND5F>l22
+R2
+S1
+R3
+w1633654283
+8/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/testbench.sv
+F/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/testbench.sv
+!i122 2
+L0 5 66
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/caa746/engr-ece/CME433/Lab2/CarryLookaheadAdder/verification/testbench.sv|
+!i113 1
+R14
+R12
