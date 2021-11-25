@@ -71,9 +71,9 @@ always@(posedge clk)
 cache_multi c(
 	.clk(clk),
 	.data(pm_data),
-	.rdline(cache_rdline),
+	.rdline(rdline),
 	.rdoffset(rdoffset),
-	.wrline(cache_wrline),
+	.wrline(wrline),
 	.wroffset(wroffset),
 	.wren(wren),
 	.q(cache_out)

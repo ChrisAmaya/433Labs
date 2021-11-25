@@ -23,8 +23,8 @@ module program_sequencer(
 	output reg sync_reset_1,
 	output reg reset_1shot
 );
-reg [2:0] tagID [3:0]; //an array of 4 3-bit tagID's
-reg valid [3:0]; //an array of 4 1-bit valid bits
+reg [2:0] tagID [3:0] //an array of 4 3-bit tagID's
+reg valid [3:0] //an array of 4 1-bit valid bits
 reg [7:0] pm_addr;
 //------------------------------Assignments---------------------------------
 assign from_PS = 8'H00;
@@ -66,13 +66,13 @@ integer ii;
 always @(posedge start_hold & end_hold) begin
 	if (reset_1shot) begin
 		for (ii = 0; ii < 4; ii = ii + 1) begin
-			valid[ii] <= 3'd0;
+			tagID[ii] <= 3'd0;
 		end
 	end else if (end_hold) begin
-			valid[pm_addr[4:3]] <= 1'b1;
+		tagID[pm_addr[4:3]] <= 1'b1;
 	end else begin
 		for (ii = 0; ii < 4; ii = ii + 1) begin
-			valid[ii] <= valid[ii];
+			tagID[ii] <= tagID[ii];
 		end
 	end
 
