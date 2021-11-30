@@ -84,9 +84,9 @@ module program_memory (
 		altsyncram_component.clock_enable_input_a = "BYPASS",
 		altsyncram_component.clock_enable_output_a = "BYPASS",
 `ifdef NO_PLI
-		altsyncram_component.init_file = "computational_test_Lab34.rif"
+		altsyncram_component.init_file = "computational_test_for_cache_Lab5.rif"
 `else
-		altsyncram_component.init_file = "computational_test_Lab34.hex"
+		altsyncram_component.init_file = "computational_test_for_cache_Lab5.hex"
 `endif
 ,
 		altsyncram_component.intended_device_family = "Cyclone IV E",

@@ -376,6 +376,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "cache_wrline[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cache_wrline[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cache_rdline[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cache_rdline[1]",
+					"strict" : false
+				},
+				{
 					"name" : "start_hold",
 					"strict" : false
 				},
@@ -404,7 +420,47 @@
 					"strict" : false
 				},
 				{
+					"name" : "sync_reset",
+					"strict" : false
+				},
+				{
 					"name" : "sync_reset_1",
+					"strict" : false
+				},
+				{
+					"name" : "reset_1shot",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[5]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[6]",
+					"strict" : false
+				},
+				{
+					"name" : "show_pm_addr[7]",
 					"strict" : false
 				},
 				{

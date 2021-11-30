@@ -392,47 +392,51 @@
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_on",
+					"name" : "start_hold",
 					"strict" : false
 				},
 				{
-					"name" : "show_start_hold",
+					"name" : "end_hold",
 					"strict" : false
 				},
 				{
-					"name" : "show_end_hold",
+					"name" : "hold",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold",
+					"name" : "hold_out",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_count[0]",
+					"name" : "hold_count[0]",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_count[1]",
+					"name" : "hold_count[1]",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_count[2]",
+					"name" : "hold_count[2]",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_count[3]",
+					"name" : "hold_count[3]",
 					"strict" : false
 				},
 				{
-					"name" : "show_hold_count[4]",
+					"name" : "hold_count[4]",
 					"strict" : false
 				},
 				{
-					"name" : "show_sync_reset_1",
+					"name" : "sync_reset_1",
 					"strict" : false
 				},
 				{
-					"name" : "show_reset_1shot",
+					"name" : "reset_1shot",
+					"strict" : false
+				},
+				{
+					"name" : "sync_reset",
 					"strict" : false
 				},
 				{

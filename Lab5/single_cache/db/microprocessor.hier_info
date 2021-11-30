@@ -4,7 +4,7 @@ o_reg[1] << computational_unit:comp_unit.o_reg
 o_reg[2] << computational_unit:comp_unit.o_reg
 o_reg[3] << computational_unit:comp_unit.o_reg
 clk => clk.IN4
-reset => sync_reset.DATAIN
+reset => sync_reset~reg0.DATAIN
 i_pins[0] => i_pins[0].IN1
 i_pins[1] => i_pins[1].IN1
 i_pins[2] => i_pins[2].IN1
@@ -126,17 +126,18 @@ cache_out[4] << cache_out[4].DB_MAX_OUTPUT_PORT_TYPE
 cache_out[5] << cache_out[5].DB_MAX_OUTPUT_PORT_TYPE
 cache_out[6] << cache_out[6].DB_MAX_OUTPUT_PORT_TYPE
 cache_out[7] << cache_out[7].DB_MAX_OUTPUT_PORT_TYPE
-show_hold_on << hold_out.DB_MAX_OUTPUT_PORT_TYPE
-show_start_hold << program_sequencer:prog_sequencer.read_start_hold
-show_end_hold << program_sequencer:prog_sequencer.read_end_hold
-show_hold << program_sequencer:prog_sequencer.read_hold
-show_hold_count[0] << program_sequencer:prog_sequencer.read_hold_count
-show_hold_count[1] << program_sequencer:prog_sequencer.read_hold_count
-show_hold_count[2] << program_sequencer:prog_sequencer.read_hold_count
-show_hold_count[3] << program_sequencer:prog_sequencer.read_hold_count
-show_hold_count[4] << program_sequencer:prog_sequencer.read_hold_count
-show_sync_reset_1 << program_sequencer:prog_sequencer.sync_reset_1
-show_reset_1shot << program_sequencer:prog_sequencer.reset_1shot
+start_hold << program_sequencer:prog_sequencer.start_hold
+end_hold << program_sequencer:prog_sequencer.end_hold
+hold << program_sequencer:prog_sequencer.hold
+hold_out << hold_out.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[0] << program_sequencer:prog_sequencer.hold_count
+hold_count[1] << program_sequencer:prog_sequencer.hold_count
+hold_count[2] << program_sequencer:prog_sequencer.hold_count
+hold_count[3] << program_sequencer:prog_sequencer.hold_count
+hold_count[4] << program_sequencer:prog_sequencer.hold_count
+sync_reset_1 << program_sequencer:prog_sequencer.sync_reset_1
+reset_1shot << program_sequencer:prog_sequencer.reset_1shot
+sync_reset << sync_reset.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |microprocessor|cache:c
@@ -3753,18 +3754,18 @@ data_a[5] => ~NO_FANOUT~
 data_a[6] => ~NO_FANOUT~
 data_a[7] => ~NO_FANOUT~
 data_b[0] => ~NO_FANOUT~
-address_a[0] => altsyncram_inb1:auto_generated.address_a[0]
-address_a[1] => altsyncram_inb1:auto_generated.address_a[1]
-address_a[2] => altsyncram_inb1:auto_generated.address_a[2]
-address_a[3] => altsyncram_inb1:auto_generated.address_a[3]
-address_a[4] => altsyncram_inb1:auto_generated.address_a[4]
-address_a[5] => altsyncram_inb1:auto_generated.address_a[5]
-address_a[6] => altsyncram_inb1:auto_generated.address_a[6]
-address_a[7] => altsyncram_inb1:auto_generated.address_a[7]
+address_a[0] => altsyncram_plc1:auto_generated.address_a[0]
+address_a[1] => altsyncram_plc1:auto_generated.address_a[1]
+address_a[2] => altsyncram_plc1:auto_generated.address_a[2]
+address_a[3] => altsyncram_plc1:auto_generated.address_a[3]
+address_a[4] => altsyncram_plc1:auto_generated.address_a[4]
+address_a[5] => altsyncram_plc1:auto_generated.address_a[5]
+address_a[6] => altsyncram_plc1:auto_generated.address_a[6]
+address_a[7] => altsyncram_plc1:auto_generated.address_a[7]
 address_b[0] => ~NO_FANOUT~
 addressstall_a => ~NO_FANOUT~
 addressstall_b => ~NO_FANOUT~
-clock0 => altsyncram_inb1:auto_generated.clock0
+clock0 => altsyncram_plc1:auto_generated.clock0
 clock1 => ~NO_FANOUT~
 clocken0 => ~NO_FANOUT~
 clocken1 => ~NO_FANOUT~
@@ -3774,21 +3775,21 @@ aclr0 => ~NO_FANOUT~
 aclr1 => ~NO_FANOUT~
 byteena_a[0] => ~NO_FANOUT~
 byteena_b[0] => ~NO_FANOUT~
-q_a[0] <= altsyncram_inb1:auto_generated.q_a[0]
-q_a[1] <= altsyncram_inb1:auto_generated.q_a[1]
-q_a[2] <= altsyncram_inb1:auto_generated.q_a[2]
-q_a[3] <= altsyncram_inb1:auto_generated.q_a[3]
-q_a[4] <= altsyncram_inb1:auto_generated.q_a[4]
-q_a[5] <= altsyncram_inb1:auto_generated.q_a[5]
-q_a[6] <= altsyncram_inb1:auto_generated.q_a[6]
-q_a[7] <= altsyncram_inb1:auto_generated.q_a[7]
+q_a[0] <= altsyncram_plc1:auto_generated.q_a[0]
+q_a[1] <= altsyncram_plc1:auto_generated.q_a[1]
+q_a[2] <= altsyncram_plc1:auto_generated.q_a[2]
+q_a[3] <= altsyncram_plc1:auto_generated.q_a[3]
+q_a[4] <= altsyncram_plc1:auto_generated.q_a[4]
+q_a[5] <= altsyncram_plc1:auto_generated.q_a[5]
+q_a[6] <= altsyncram_plc1:auto_generated.q_a[6]
+q_a[7] <= altsyncram_plc1:auto_generated.q_a[7]
 q_b[0] <= <GND>
 eccstatus[0] <= <GND>
 eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|microprocessor|program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_inb1:auto_generated
+|microprocessor|program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_plc1:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -3880,14 +3881,14 @@ clk => pc[4]~reg0.CLK
 clk => pc[5]~reg0.CLK
 clk => pc[6]~reg0.CLK
 clk => pc[7]~reg0.CLK
-clk => end_hold.CLK
-clk => hold_count[0].CLK
-clk => hold_count[1].CLK
-clk => hold_count[2].CLK
-clk => hold_count[3].CLK
-clk => hold_count[4].CLK
-clk => hold.CLK
-clk => start_hold.CLK
+clk => end_hold~reg0.CLK
+clk => hold_count[0]~reg0.CLK
+clk => hold_count[1]~reg0.CLK
+clk => hold_count[2]~reg0.CLK
+clk => hold_count[3]~reg0.CLK
+clk => hold_count[4]~reg0.CLK
+clk => hold~reg0.CLK
+clk => start_hold~reg0.CLK
 clk => cache_wren~reg0.CLK
 clk => cache_rdoffset[0]~reg0.CLK
 clk => cache_rdoffset[1]~reg0.CLK
@@ -3957,14 +3958,14 @@ rom_address[4] <= rom_address.DB_MAX_OUTPUT_PORT_TYPE
 rom_address[5] <= rom_address.DB_MAX_OUTPUT_PORT_TYPE
 rom_address[6] <= rom_address.DB_MAX_OUTPUT_PORT_TYPE
 rom_address[7] <= rom_address.DB_MAX_OUTPUT_PORT_TYPE
-read_start_hold <= start_hold.DB_MAX_OUTPUT_PORT_TYPE
-read_end_hold <= end_hold.DB_MAX_OUTPUT_PORT_TYPE
-read_hold <= hold.DB_MAX_OUTPUT_PORT_TYPE
-read_hold_count[0] <= hold_count[0].DB_MAX_OUTPUT_PORT_TYPE
-read_hold_count[1] <= hold_count[1].DB_MAX_OUTPUT_PORT_TYPE
-read_hold_count[2] <= hold_count[2].DB_MAX_OUTPUT_PORT_TYPE
-read_hold_count[3] <= hold_count[3].DB_MAX_OUTPUT_PORT_TYPE
-read_hold_count[4] <= hold_count[4].DB_MAX_OUTPUT_PORT_TYPE
+start_hold <= start_hold~reg0.DB_MAX_OUTPUT_PORT_TYPE
+end_hold <= end_hold~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold <= hold~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[0] <= hold_count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[1] <= hold_count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[2] <= hold_count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[3] <= hold_count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hold_count[4] <= hold_count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 sync_reset_1 <= sync_reset_1~reg0.DB_MAX_OUTPUT_PORT_TYPE
 reset_1shot <= reset_1shot~reg0.DB_MAX_OUTPUT_PORT_TYPE
 

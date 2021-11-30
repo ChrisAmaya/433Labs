@@ -1,5 +1,5 @@
 Analysis & Synthesis report for microprocessor
-Thu Nov 25 17:46:41 2021
+Fri Nov 26 16:39:05 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -28,13 +28,12 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
  20. Parameter Settings for Inferred Entity Instance: computational_unit:comp_unit|lpm_mult:Mult0
  21. altsyncram Parameter Settings by Entity Instance
  22. lpm_mult Parameter Settings by Entity Instance
- 23. Port Connectivity Checks: "program_sequencer:prog_sequencer"
- 24. Port Connectivity Checks: "data_memory:data_mem"
- 25. Port Connectivity Checks: "cache_multi:c"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
- 29. Analysis & Synthesis Suppressed Messages
+ 23. Port Connectivity Checks: "data_memory:data_mem"
+ 24. Port Connectivity Checks: "cache_multi:c"
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
+ 28. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -61,18 +60,18 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 25 17:46:41 2021       ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 26 16:39:05 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; microprocessor                              ;
 ; Top-level Entity Name              ; microprocessor                              ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 330                                         ;
-;     Total combinational functions  ; 294                                         ;
-;     Dedicated logic registers      ; 79                                          ;
-; Total registers                    ; 79                                          ;
-; Total pins                         ; 137                                         ;
+; Total logic elements               ; 338                                         ;
+;     Total combinational functions  ; 302                                         ;
+;     Dedicated logic registers      ; 76                                          ;
+; Total registers                    ; 76                                          ;
+; Total pins                         ; 145                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 2,240                                       ;
+; Total memory bits                  ; 2,368                                       ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -177,7 +176,8 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -221,31 +221,31 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 330       ;
+; Estimated Total logic elements              ; 338       ;
 ;                                             ;           ;
-; Total combinational functions               ; 294       ;
+; Total combinational functions               ; 302       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 167       ;
-;     -- 3 input functions                    ; 76        ;
-;     -- <=2 input functions                  ; 51        ;
+;     -- 4 input functions                    ; 175       ;
+;     -- 3 input functions                    ; 81        ;
+;     -- <=2 input functions                  ; 46        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 266       ;
+;     -- normal mode                          ; 274       ;
 ;     -- arithmetic mode                      ; 28        ;
 ;                                             ;           ;
-; Total registers                             ; 79        ;
-;     -- Dedicated logic registers            ; 79        ;
+; Total registers                             ; 76        ;
+;     -- Dedicated logic registers            ; 76        ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 137       ;
-; Total memory bits                           ; 2240      ;
+; I/O pins                                    ; 145       ;
+; Total memory bits                           ; 2368      ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 139       ;
-; Total fan-out                               ; 1946      ;
-; Average fan-out                             ; 2.69      ;
+; Maximum fan-out                             ; 148       ;
+; Total fan-out                               ; 2112      ;
+; Average fan-out                             ; 2.84      ;
 +---------------------------------------------+-----------+
 
 
@@ -254,11 +254,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                   ; Entity Name         ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |microprocessor                              ; 294 (0)             ; 79 (1)                    ; 2240        ; 0            ; 0       ; 0         ; 137  ; 0            ; |microprocessor                                                                                                       ; microprocessor      ; work         ;
-;    |cache_multi:c|                           ; 48 (48)             ; 0 (0)                     ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c                                                                                         ; cache_multi         ; work         ;
-;       |cache_ram:cache_ram_inst|             ; 0 (0)               ; 0 (0)                     ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst                                                                ; cache_ram           ; work         ;
-;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component                                ; altsyncram          ; work         ;
-;             |altsyncram_b4q1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 128         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component|altsyncram_b4q1:auto_generated ; altsyncram_b4q1     ; work         ;
+; |microprocessor                              ; 302 (0)             ; 76 (1)                    ; 2368        ; 0            ; 0       ; 0         ; 145  ; 0            ; |microprocessor                                                                                                       ; microprocessor      ; work         ;
+;    |cache_multi:c|                           ; 48 (48)             ; 0 (0)                     ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c                                                                                         ; cache_multi         ; work         ;
+;       |cache_ram:cache_ram_inst|             ; 0 (0)               ; 0 (0)                     ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst                                                                ; cache_ram           ; work         ;
+;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component                                ; altsyncram          ; work         ;
+;             |altsyncram_b4q1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 256         ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component|altsyncram_b4q1:auto_generated ; altsyncram_b4q1     ; work         ;
 ;    |computational_unit:comp_unit|            ; 136 (105)           ; 33 (33)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|computational_unit:comp_unit                                                                          ; computational_unit  ; work         ;
 ;       |lpm_mult:Mult0|                       ; 31 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|computational_unit:comp_unit|lpm_mult:Mult0                                                           ; lpm_mult            ; work         ;
 ;          |mult_j8t:auto_generated|           ; 31 (31)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|computational_unit:comp_unit|lpm_mult:Mult0|mult_j8t:auto_generated                                   ; mult_j8t            ; work         ;
@@ -269,7 +269,7 @@ https://fpgasoftware.intel.com/eula.
 ;    |program_memory:prog_memory|              ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|program_memory:prog_memory                                                                            ; program_memory      ; work         ;
 ;       |altsyncram:altsyncram_component|      ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|program_memory:prog_memory|altsyncram:altsyncram_component                                            ; altsyncram          ; work         ;
 ;          |altsyncram_plc1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_plc1:auto_generated             ; altsyncram_plc1     ; work         ;
-;    |program_sequencer:prog_sequencer|        ; 74 (74)             ; 37 (37)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|program_sequencer:prog_sequencer                                                                      ; program_sequencer   ; work         ;
+;    |program_sequencer:prog_sequencer|        ; 82 (82)             ; 34 (34)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |microprocessor|program_sequencer:prog_sequencer                                                                      ; program_sequencer   ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-----------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -294,29 +294,41 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+--------------------------------------------------------+-----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                                  ;
-+-----------------------------------------------------+---------------------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal                   ; Free of Timing Hazards ;
-+-----------------------------------------------------+---------------------------------------+------------------------+
-; program_sequencer:prog_sequencer|pm_addr[3]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[4]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[5]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[6]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[7]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[0]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[4]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[1]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[5]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[2]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[6]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[3]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; computational_unit:comp_unit|alu_out_temp[7]        ; computational_unit:comp_unit|always11 ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[0]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[1]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; program_sequencer:prog_sequencer|pm_addr[2]         ; program_sequencer:prog_sequencer|hold ; yes                    ;
-; Number of user-specified and inferred latches = 16  ;                                       ;                        ;
-+-----------------------------------------------------+---------------------------------------+------------------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                         ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal                          ; Free of Timing Hazards ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
+; program_sequencer:prog_sequencer|pm_addr[3]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[4]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[2][0]        ; program_sequencer:prog_sequencer|tagID[2][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[1][0]        ; program_sequencer:prog_sequencer|tagID[1][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[0][0]        ; program_sequencer:prog_sequencer|tagID[0][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[3][0]        ; program_sequencer:prog_sequencer|tagID[3][1] ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[5]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[1][1]        ; program_sequencer:prog_sequencer|tagID[1][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[2][1]        ; program_sequencer:prog_sequencer|tagID[2][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[0][1]        ; program_sequencer:prog_sequencer|tagID[0][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[3][1]        ; program_sequencer:prog_sequencer|tagID[3][1] ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[6]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[2][2]        ; program_sequencer:prog_sequencer|tagID[2][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[1][2]        ; program_sequencer:prog_sequencer|tagID[1][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[0][2]        ; program_sequencer:prog_sequencer|tagID[0][2] ; yes                    ;
+; program_sequencer:prog_sequencer|tagID[3][2]        ; program_sequencer:prog_sequencer|tagID[3][1] ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[7]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[0]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[4]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[1]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[5]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[2]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[6]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[3]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; computational_unit:comp_unit|alu_out_temp[7]        ; computational_unit:comp_unit|always11        ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[0]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[1]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; program_sequencer:prog_sequencer|pm_addr[2]         ; program_sequencer:prog_sequencer|hold        ; yes                    ;
+; Number of user-specified and inferred latches = 28  ;                                              ;                        ;
++-----------------------------------------------------+----------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -329,7 +341,8 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; program_sequencer:prog_sequencer|pc[1] ; Merged with program_sequencer:prog_sequencer|cache_rdoffset[1] ;
 ; program_sequencer:prog_sequencer|pc[2] ; Merged with program_sequencer:prog_sequencer|cache_rdoffset[2] ;
 ; program_sequencer:prog_sequencer|pc[3] ; Merged with program_sequencer:prog_sequencer|cache_rdline[0]   ;
-; Total Number of Removed Registers = 4  ;                                                                ;
+; program_sequencer:prog_sequencer|pc[4] ; Merged with program_sequencer:prog_sequencer|cache_rdline[1]   ;
+; Total Number of Removed Registers = 5  ;                                                                ;
 +----------------------------------------+----------------------------------------------------------------+
 
 
@@ -338,12 +351,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 79    ;
+; Total registers                              ; 76    ;
 ; Number of registers using Synchronous Clear  ; 4     ;
 ; Number of registers using Synchronous Load   ; 10    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 47    ;
+; Number of registers using Clock Enable       ; 32    ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -354,19 +367,15 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 ; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |microprocessor|program_sequencer:prog_sequencer|hold_count[2]  ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |microprocessor|program_sequencer:prog_sequencer|tagID[3][2]    ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |microprocessor|program_sequencer:prog_sequencer|tagID[2][0]    ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |microprocessor|program_sequencer:prog_sequencer|tagID[1][2]    ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |microprocessor|program_sequencer:prog_sequencer|tagID[0][1]    ;
-; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |microprocessor|computational_unit:comp_unit|r[0]               ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |microprocessor|computational_unit:comp_unit|i[0]               ;
-; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|rom_address[1] ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|Mux2           ;
+; 4:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |microprocessor|computational_unit:comp_unit|r[1]               ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |microprocessor|computational_unit:comp_unit|i[3]               ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|rom_address[2] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|Mux0           ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|rom_address[4] ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |microprocessor|cache_multi:c|Mux7                              ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |microprocessor|cache_multi:c|Mux4                              ;
 ; 7:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |microprocessor|program_sequencer:prog_sequencer|rom_address[6] ;
 ; 11:1               ; 3 bits    ; 21 LEs        ; 15 LEs               ; 6 LEs                  ; No         ; |microprocessor|computational_unit:comp_unit|alu_out[3]         ;
-; 15:1               ; 4 bits    ; 40 LEs        ; 28 LEs               ; 12 LEs                 ; No         ; |microprocessor|computational_unit:comp_unit|data_bus[1]        ;
+; 15:1               ; 4 bits    ; 40 LEs        ; 28 LEs               ; 12 LEs                 ; No         ; |microprocessor|computational_unit:comp_unit|data_bus[3]        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 
 
@@ -677,19 +686,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------------------------+---------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "program_sequencer:prog_sequencer"                                                                                                                                               ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port           ; Type   ; Severity ; Details                                                                                                                                                               ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; cache_wroffset ; Output ; Warning  ; Output or bidir port (3 bits) is smaller than the port expression (5 bits) it drives.  The 2 most-significant bit(s) in the port expression will be connected to GND. ;
-; cache_rdoffset ; Output ; Warning  ; Output or bidir port (3 bits) is smaller than the port expression (5 bits) it drives.  The 2 most-significant bit(s) in the port expression will be connected to GND. ;
-; cache_wrline   ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "cache_wrline[1..1]" have no fanouts                                       ;
-; cache_rdline   ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "cache_rdline[1..1]" have no fanouts                                       ;
-; reset_1shot    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                   ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "data_memory:data_mem"                                                                                                                                                            ;
 +------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -700,17 +696,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "cache_multi:c"                                                                                                                                                                       ;
-+----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                                                                          ;
-+----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; rdline   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "rdline[1..1]" will be connected to GND.                                   ;
-; rdoffset ; Input  ; Warning  ; Input port expression (5 bits) is wider than the input port (3 bits) it drives.  The 2 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; wrline   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "wrline[1..1]" will be connected to GND.                                   ;
-; wroffset ; Input  ; Warning  ; Input port expression (5 bits) is wider than the input port (3 bits) it drives.  The 2 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; q_tmp    ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                                                         ;
-+----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cache_multi:c"                                                                                            ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                  ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; q_tmp ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+----------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -718,27 +710,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 137                         ;
-; cycloneiii_ff         ; 79                          ;
-;     ENA               ; 39                          ;
+; boundary_port         ; 145                         ;
+; cycloneiii_ff         ; 76                          ;
+;     ENA               ; 24                          ;
 ;     ENA SLD           ; 8                           ;
 ;     SCLR              ; 4                           ;
 ;     SLD               ; 2                           ;
-;     plain             ; 26                          ;
-; cycloneiii_lcell_comb ; 295                         ;
+;     plain             ; 38                          ;
+; cycloneiii_lcell_comb ; 303                         ;
 ;     arith             ; 28                          ;
 ;         2 data inputs ; 9                           ;
 ;         3 data inputs ; 19                          ;
-;     normal            ; 267                         ;
+;     normal            ; 275                         ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 41                          ;
-;         3 data inputs ; 57                          ;
-;         4 data inputs ; 167                         ;
+;         2 data inputs ; 36                          ;
+;         3 data inputs ; 62                          ;
+;         4 data inputs ; 175                         ;
 ; cycloneiii_ram_block  ; 76                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 8.20                        ;
-; Average LUT depth     ; 3.92                        ;
+; Average LUT depth     ; 3.84                        ;
 +-----------------------+-----------------------------+
 
 
@@ -757,14 +749,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Nov 25 17:46:33 2021
+    Info: Processing started: Fri Nov 26 16:38:57 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off microprocessor -c microprocessor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: ram File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/ram.v Line: 40
-Warning (10261): Verilog HDL Event Control warning at program_sequencer.v(48): Event Control contains a complex event expression File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 48
-Warning (10261): Verilog HDL Event Control warning at program_sequencer.v(66): Event Control contains a complex event expression File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 66
+Warning (10261): Verilog HDL Event Control warning at program_sequencer.v(54): Event Control contains a complex event expression File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Warning (10261): Verilog HDL Event Control warning at program_sequencer.v(72): Event Control contains a complex event expression File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 72
 Info (12021): Found 1 design units, including 1 entities, in source file program_sequencer.v
     Info (12023): Found entity 1: program_sequencer File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file program_memory.v
@@ -781,13 +773,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file cache_m
     Info (12023): Found entity 1: cache_multi File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/cache_multi.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file cache_ram.v
     Info (12023): Found entity 1: cache_ram File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/cache_ram.v Line: 40
-Warning (10236): Verilog HDL Implicit Net warning at microprocessor.v(74): created implicit net for "cache_rdline" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 74
-Warning (10236): Verilog HDL Implicit Net warning at microprocessor.v(76): created implicit net for "cache_wrline" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 76
-Warning (10236): Verilog HDL Implicit Net warning at microprocessor.v(120): created implicit net for "show_reset_1shot" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 120
 Info (12127): Elaborating entity "microprocessor" for the top level hierarchy
-Warning (10034): Output port "hold_on" at microprocessor.v(46) has no driver File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 46
-Warning (10034): Output port "reset_1shot" at microprocessor.v(54) has no driver File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 54
-Info (12128): Elaborating entity "cache_multi" for hierarchy "cache_multi:c" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 80
+Info (12128): Elaborating entity "cache_multi" for hierarchy "cache_multi:c" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 83
 Info (12128): Elaborating entity "cache_ram" for hierarchy "cache_multi:c|cache_ram:cache_ram_inst" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/cache_multi.v Line: 37
 Info (12128): Elaborating entity "altsyncram" for hierarchy "cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/cache_ram.v Line: 92
 Info (12130): Elaborated megafunction instantiation "cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/cache_ram.v Line: 92
@@ -815,7 +802,7 @@ Info (12133): Instantiated megafunction "cache_multi:c|cache_ram:cache_ram_inst|
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_b4q1.tdf
     Info (12023): Found entity 1: altsyncram_b4q1 File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/db/altsyncram_b4q1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_b4q1" for hierarchy "cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component|altsyncram_b4q1:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "data_memory" for hierarchy "data_memory:data_mem" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 88
+Info (12128): Elaborating entity "data_memory" for hierarchy "data_memory:data_mem" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 91
 Info (12128): Elaborating entity "altsyncram" for hierarchy "data_memory:data_mem|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/data_memory.v Line: 86
 Info (12130): Elaborated megafunction instantiation "data_memory:data_mem|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/data_memory.v Line: 86
 Info (12133): Instantiated megafunction "data_memory:data_mem|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/data_memory.v Line: 86
@@ -836,7 +823,7 @@ Info (12133): Instantiated megafunction "data_memory:data_mem|altsyncram:altsync
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_93g1.tdf
     Info (12023): Found entity 1: altsyncram_93g1 File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/db/altsyncram_93g1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_93g1" for hierarchy "data_memory:data_mem|altsyncram:altsyncram_component|altsyncram_93g1:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "program_memory" for hierarchy "program_memory:prog_memory" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 95
+Info (12128): Elaborating entity "program_memory" for hierarchy "program_memory:prog_memory" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 98
 Info (12128): Elaborating entity "altsyncram" for hierarchy "program_memory:prog_memory|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_memory.v Line: 81
 Info (12130): Elaborated megafunction instantiation "program_memory:prog_memory|altsyncram:altsyncram_component" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_memory.v Line: 81
 Info (12133): Instantiated megafunction "program_memory:prog_memory|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_memory.v Line: 81
@@ -857,19 +844,31 @@ Info (12133): Instantiated megafunction "program_memory:prog_memory|altsyncram:a
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_plc1.tdf
     Info (12023): Found entity 1: altsyncram_plc1 File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/db/altsyncram_plc1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_plc1" for hierarchy "program_memory:prog_memory|altsyncram:altsyncram_component|altsyncram_plc1:auto_generated" File: c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "program_sequencer" for hierarchy "program_sequencer:prog_sequencer" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 121
-Warning (10230): Verilog HDL assignment warning at program_sequencer.v(69): truncated value with size 3 to match size of target (1) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 69
-Warning (10240): Verilog HDL Always Construct warning at program_sequencer.v(148): inferring latch(es) for variable "pm_addr", which holds its previous value in one or more paths through the always construct File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 148
-Info (10041): Inferred latch for "pm_addr[0]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[1]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[2]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[3]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[4]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[5]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[6]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (10041): Inferred latch for "pm_addr[7]" at program_sequencer.v(150) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 150
-Info (12128): Elaborating entity "instruction_decoder" for hierarchy "instruction_decoder:inst_decoder" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 143
-Info (12128): Elaborating entity "computational_unit" for hierarchy "computational_unit:comp_unit" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 168
+Info (12128): Elaborating entity "program_sequencer" for hierarchy "program_sequencer:prog_sequencer" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 126
+Warning (10240): Verilog HDL Always Construct warning at program_sequencer.v(54): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Warning (10240): Verilog HDL Always Construct warning at program_sequencer.v(154): inferring latch(es) for variable "pm_addr", which holds its previous value in one or more paths through the always construct File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 154
+Info (10041): Inferred latch for "pm_addr[0]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[1]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[2]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[3]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[4]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[5]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[6]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "pm_addr[7]" at program_sequencer.v(156) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 156
+Info (10041): Inferred latch for "tagID[0][0]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[0][1]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[0][2]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[1][0]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[1][1]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[1][2]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[2][0]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[2][1]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[2][2]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[3][0]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[3][1]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (10041): Inferred latch for "tagID[3][2]" at program_sequencer.v(54) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/program_sequencer.v Line: 54
+Info (12128): Elaborating entity "instruction_decoder" for hierarchy "instruction_decoder:inst_decoder" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 148
+Info (12128): Elaborating entity "computational_unit" for hierarchy "computational_unit:comp_unit" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 173
 Warning (10240): Verilog HDL Always Construct warning at computational_unit.v(154): inferring latch(es) for variable "alu_out_temp", which holds its previous value in one or more paths through the always construct File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
 Info (10041): Inferred latch for "alu_out_temp[0]" at computational_unit.v(154) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
 Info (10041): Inferred latch for "alu_out_temp[1]" at computational_unit.v(154) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
@@ -879,11 +878,6 @@ Info (10041): Inferred latch for "alu_out_temp[4]" at computational_unit.v(154) 
 Info (10041): Inferred latch for "alu_out_temp[5]" at computational_unit.v(154) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
 Info (10041): Inferred latch for "alu_out_temp[6]" at computational_unit.v(154) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
 Info (10041): Inferred latch for "alu_out_temp[7]" at computational_unit.v(154) File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 154
-Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "wroffset[4]" is missing source, defaulting to GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 39
-    Warning (12110): Net "wroffset[3]" is missing source, defaulting to GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 39
-    Warning (12110): Net "rdoffset[4]" is missing source, defaulting to GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 40
-    Warning (12110): Net "rdoffset[3]" is missing source, defaulting to GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 40
 Info (278001): Inferred 1 megafunctions from design logic
     Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "computational_unit:comp_unit|Mult0" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 155
 Info (12130): Elaborated megafunction instantiation "computational_unit:comp_unit|lpm_mult:Mult0" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/computational_unit.v Line: 155
@@ -902,7 +896,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/mult
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following LCELL buffer node(s):
         Warning (14320): Synthesized away node "computational_unit:comp_unit|lpm_mult:Mult0|mult_j8t:auto_generated|le5a[4]" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/db/mult_j8t.tdf Line: 43
-Warning (12241): 3 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (13014): Ignored 48 buffer(s)
     Info (13016): Ignored 4 CARRY_SUM buffer(s)
     Info (13019): Ignored 44 SOFT buffer(s)
@@ -931,27 +925,20 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "from_PS[5]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 36
     Warning (13410): Pin "from_PS[6]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 36
     Warning (13410): Pin "from_PS[7]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 36
-    Warning (13410): Pin "wroffset[3]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 39
-    Warning (13410): Pin "wroffset[4]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 39
-    Warning (13410): Pin "rdoffset[3]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 40
-    Warning (13410): Pin "rdoffset[4]" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 40
-    Warning (13410): Pin "hold_on" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 46
-    Warning (13410): Pin "reset_1shot" is stuck at GND File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/microprocessor.v Line: 54
 Info (286030): Timing-Driven Synthesis is running
-Info (17036): Removed 1 MSB VCC or GND address nodes from RAM block "cache_multi:c|cache_ram:cache_ram_inst|altsyncram:altsyncram_component|altsyncram_b4q1:auto_generated|ALTSYNCRAM" File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/db/altsyncram_b4q1.tdf Line: 35
 Info (144001): Generated suppressed messages file C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/multi_cache/output_files/microprocessor.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 559 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 572 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 6 input pins
-    Info (21059): Implemented 131 output pins
-    Info (21061): Implemented 346 logic cells
+    Info (21059): Implemented 139 output pins
+    Info (21061): Implemented 351 logic cells
     Info (21064): Implemented 76 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 51 warnings
-    Info: Peak virtual memory: 4797 megabytes
-    Info: Processing ended: Thu Nov 25 17:46:41 2021
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 35 warnings
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Fri Nov 26 16:39:05 2021
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:19
+    Info: Total CPU time (on all processors): 00:00:16
 
 
 +------------------------------------------+

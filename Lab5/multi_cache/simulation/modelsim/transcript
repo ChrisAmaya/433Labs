@@ -1,0 +1,99 @@
+# Compile of microprocessor.vo was successful.
+# Compile of microprocessor_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb
+# vsim -gui -L altera_mf_ver -L altera_ver -L cycloneive_ver work.microprocessor_tb 
+# Start time: 16:42:54 on Nov 26,2021
+# Loading work.microprocessor_tb
+# Loading work.microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 36, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reg_enables'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'rom_address'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'wroffset'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'rdoffset'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'wren'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'cache_out'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'start_hold'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'end_hold'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'hold'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'hold_out'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'hold_count'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'sync_reset_1'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'reset_1shot'.
+# ** Warning: (vsim-3722) C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'sync_reset'.
+# Loading altera_ver.PRIM_GDFF_LOW
+add wave -position insertpoint  \
+sim:/microprocessor_tb/uut/o_reg \
+sim:/microprocessor_tb/uut/clk \
+sim:/microprocessor_tb/uut/reset \
+sim:/microprocessor_tb/uut/i_pins \
+sim:/microprocessor_tb/uut/zero_flag \
+sim:/microprocessor_tb/uut/pm_data \
+sim:/microprocessor_tb/uut/reg_enables \
+sim:/microprocessor_tb/uut/from_CU \
+sim:/microprocessor_tb/uut/x0 \
+sim:/microprocessor_tb/uut/x1 \
+sim:/microprocessor_tb/uut/y0 \
+sim:/microprocessor_tb/uut/y1 \
+sim:/microprocessor_tb/uut/m \
+sim:/microprocessor_tb/uut/r \
+sim:/microprocessor_tb/uut/i \
+sim:/microprocessor_tb/uut/ir \
+sim:/microprocessor_tb/uut/from_ID \
+sim:/microprocessor_tb/uut/NOPC8 \
+sim:/microprocessor_tb/uut/NOPCF \
+sim:/microprocessor_tb/uut/NOPD8 \
+sim:/microprocessor_tb/uut/NOPDF \
+sim:/microprocessor_tb/uut/pc \
+sim:/microprocessor_tb/uut/from_PS \
+sim:/microprocessor_tb/uut/rom_address \
+sim:/microprocessor_tb/uut/wroffset \
+sim:/microprocessor_tb/uut/rdoffset \
+sim:/microprocessor_tb/uut/wren \
+sim:/microprocessor_tb/uut/cache_out \
+sim:/microprocessor_tb/uut/start_hold \
+sim:/microprocessor_tb/uut/end_hold \
+sim:/microprocessor_tb/uut/hold \
+sim:/microprocessor_tb/uut/hold_out \
+sim:/microprocessor_tb/uut/hold_count \
+sim:/microprocessor_tb/uut/sync_reset_1 \
+sim:/microprocessor_tb/uut/reset_1shot \
+sim:/microprocessor_tb/uut/sync_reset
+run -all
+# ** Note: $stop    : C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v(23)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor_tb.v line 23
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Users/chris/Dropbox/School/CME433/Labs/433Labs/Lab5/single_cache/simulation/modelsim/microprocessor.mpf).  File can not be renamed.
+# End time: 21:52:06 on Nov 27,2021, Elapsed time: 29:09:12
+# Errors: 1, Warnings: 37

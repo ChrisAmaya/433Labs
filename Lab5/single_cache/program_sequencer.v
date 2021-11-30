@@ -15,24 +15,17 @@ module program_sequencer(
 	output reg [7:0] rom_address,
 	
 	//for debugging
-	output wire read_start_hold,
-	output wire read_end_hold,
-	output wire read_hold,
-	output wire [4:0] read_hold_count,
+	output reg start_hold,
+	output reg end_hold,
+	output reg hold,
+	output reg [4:0] hold_count,
 	output reg sync_reset_1,
 	output reg reset_1shot
 );
 
-reg start_hold;
-reg [4:0] hold_count;
-reg end_hold;
-reg hold;
+
 reg [7:0] pm_addr;
 //-------------------------Debugging Assignments----------------------------
-assign read_start_hold = start_hold;
-assign read_end_hold = end_hold;
-assign read_hold = hold;
-assign read_hold_count = hold_count;
 assign from_PS = 8'H00;
 //assign from_PS = pc;
 

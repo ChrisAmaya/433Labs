@@ -43,16 +43,15 @@ output wire [7:0] cache_out,
 
 
 //------------Debugging------------
-output wire show_hold_on,
-output wire show_start_hold,
-output wire show_end_hold,
-output wire show_hold,
-output wire [4:0] show_hold_count,
-output wire show_sync_reset_1,
-output wire show_reset_1shot
+output wire start_hold,
+output wire end_hold,
+output wire hold,
+output wire hold_out,
+output wire [4:0] hold_count,
+output wire sync_reset_1,
+output wire reset_1shot,
+output reg sync_reset
 );
-//-----------For debugging----------
-assign show_hold_on = hold_out;
 
 wire jump;
 wire conditional_jump;
@@ -63,8 +62,6 @@ wire [3:0] LS_nibble_ir;
 wire [3:0] source_select;
 wire [7:0] dm;
 wire [7:0] data_bus;
-wire hold_out;
-reg sync_reset;
 
 always@(posedge clk)
 	sync_reset <= reset;
@@ -110,12 +107,12 @@ program_sequencer prog_sequencer (
 	 .cache_wren(wren),
 	 
 	 //for debugging
-	 .read_start_hold(show_start_hold),
-	 .read_end_hold(show_end_hold),
-	 .read_hold(show_hold),
-	 .read_hold_count(show_hold_count),
-	 .sync_reset_1(show_sync_reset_1),
-	 .reset_1shot(show_reset_1shot)
+	 .start_hold(start_hold),
+	 .end_hold(end_hold),
+	 .hold(hold),
+	 .hold_count(hold_count),
+	 .sync_reset_1(sync_reset_1),
+	 .reset_1shot(reset_1shot)
 	 );
 
 instruction_decoder inst_decoder( 
