@@ -12,11 +12,11 @@
 #include<time.h>
 
 //define constant: matrix size
-#define ROW1 4
-#define COL1 4
-#define ROW2 4
-#define COL2 4
-#define DEBUG
+#define ROW1 512
+#define COL1 512
+#define ROW2 512
+#define COL2 512
+// #define DEBUG
 
 //row-major order
 float matrixA[ROW1 * COL1];

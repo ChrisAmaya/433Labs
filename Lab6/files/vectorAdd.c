@@ -111,7 +111,7 @@ int main(int argc, char** argv)
 	}
 
 	//create a command queue
-        //NOTE: This is deprecated and should be updated to clCreateCommandQueueWithProperties
+  //NOTE: This is deprecated and should be updated to clCreateCommandQueueWithProperties
 	//This call will setup the command queue with associated properties. The command queue gets
 	//populated by the GPU based upon the program and options we set below..
 	//cl_queue_properties props[] = {CL_QUEUE_PROPERTIES, CL_QUEUE_PROFILING_ENABLE,0}; //for use with host queue
