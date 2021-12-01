@@ -16,7 +16,7 @@
 #define COL1 4
 #define ROW2 4
 #define COL2 4
-// #define DEBUG
+#define DEBUG
 
 //row-major order
 float matrixA[ROW1 * COL1];
