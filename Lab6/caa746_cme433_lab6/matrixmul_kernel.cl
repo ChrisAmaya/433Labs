@@ -8,13 +8,13 @@
 // OpenCL Kernel
 
 __kernel void matrixMul(__global float* C, __global float* A, __global float* B, int wA, int wB) {
-  const int globalRow = get_global_id(0);
-  const int globalCol = get_global_id(1);
+  const int globalRow = get_global_id(0) / wB;
+  const int globalCol = get_global_id(0) % wA ;
 
   float sum = 0.0f;
   for (int i = 0; i < wA; i++){
     float elementA = A[globalCol * wA + i];
-    float elementB = B[i + wB + globalRow];
+    float elementB = B[i * wB + globalRow];
     sum += elementA * elementB;
 
   }
